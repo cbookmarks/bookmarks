@@ -15,13 +15,13 @@ This bookmarks file is regularly updated with contributions from our community. 
 1. **Import the HTML File**: You can easily import the HTML file as bookmarks into your browser.
 2. **Stay Notified**: By starring or watching this repository, you'll receive updates whenever the file is modified.
 
-## Contributing to The Apple Community Bookmarks
-
-We welcome contributions from everyone! Whether you're familiar with Git or not, here's how you can help:
-
 ## Join the Community
 
 Your contributions are what make Navigating Apple a valuable resource. Whether you're an admin, a sales professional, or an enthusiast, your input is crucial. Let's build this resource together and make navigating Apple products easier for everyone!
+
+## Contributing? 
+
+Please read the CONTRIBUTING.md file.
 
 ---
 
