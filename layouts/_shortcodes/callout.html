@@ -1,0 +1,8 @@
+{{- /* {{< callout title="…" button="…" href="issues/new?template=x.yml" >}}Text{{< /callout >}}
+       href is relative to the repository unless it starts with http or / */ -}}
+{{- $href := .Get "href" -}}
+{{- if not (or (hasPrefix $href "http") (hasPrefix $href "/")) }}{{ $href = printf "%s/%s" site.Params.repo $href }}{{ end -}}
+<div class="callout">
+  <p><strong>{{ .Get "title" }}</strong>{{ .Inner | .Page.RenderString }}</p>
+  <a class="btn btn-primary btn-lg" href="{{ $href }}" rel="noopener">{{ .Get "button" }}</a>
+</div>

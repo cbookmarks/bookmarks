@@ -1,0 +1,85 @@
+# When a maintainer adds the "approved" label to a submission issue, this adds
+# the resource to the data and opens a pull request that closes the issue on merge.
+name: Approved submission to pull request
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  create-pr:
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'resource-submission')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - run: pip install pyyaml
+
+      - name: Add resource from the issue
+        id: add
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        shell: bash   # runs with pipefail, so a rejected submission still stops the workflow
+        run: python scripts/issue_to_resource.py | tee add.log
+
+      - name: Fill in missing details
+        id: enrich
+        continue-on-error: true   # never block a submission on this step
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/enrich.py --file "${{ steps.add.outputs.file }}" --url "${{ steps.add.outputs.url }}" | tee enrich.log
+
+      - name: Validate
+        id: check
+        run: |
+          set +e
+          python scripts/validate.py > validate.log 2>&1
+          echo "result=$?" >> "$GITHUB_OUTPUT"
+          cat validate.log
+
+      - name: Write pull request body
+        env:
+          RESULT: ${{ steps.check.outputs.result }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          {
+            echo "Adds a resource from #${NUMBER}."
+            echo
+            grep -h "over the 140 limit" add.log && echo
+            if [ -s enrich.log ]; then echo "Filled in automatically (check before merging):"; cat enrich.log; echo; fi
+            if [ "$RESULT" = "0" ]; then echo "Validation passed."; else echo "**Validation failed.** Fix the entry on this branch before merging:"; fi
+            echo
+            echo '```'
+            cat validate.log
+            echo '```'
+            echo
+            echo "Closes #${NUMBER}"
+          } > pr-body.md
+          rm -f validate.log enrich.log add.log
+
+      - uses: peter-evans/create-pull-request@v8
+        with:
+          branch: submission/issue-${{ github.event.issue.number }}
+          commit-message: "Add ${{ steps.add.outputs.name }}"
+          title: "Add ${{ steps.add.outputs.name }} to ${{ steps.add.outputs.category }}"
+          body-path: pr-body.md
+          add-paths: data/resources/*.yaml
+          labels: resource-submission
+
+      - name: Report a failure on the issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body "The submission couldn't be added automatically. See the [workflow run]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID) for the reason, for example a duplicate URL or an unknown category."

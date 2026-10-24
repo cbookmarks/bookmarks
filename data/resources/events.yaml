@@ -1,0 +1,55 @@
+- name: Aces
+  url: https://acesconf.com/
+  description: Business conference for owners and staff of Apple IT consultancies, covering marketing, sales and help desk operations.
+  keywords: [aces, apple consultants, msp, consultancy, business growth]
+
+- name: Jamf Nation User Conference
+  url: https://www.jamf.com/events/jamf-nation-user-conference/
+  description: Jamf's annual three-day user conference with community and Jamf-led sessions for IT staff who manage Apple devices.
+  keywords: [jnuc, jamf pro, jamf nation, sessions]
+  works_with: [jamf]
+
+- name: MacAD.UK
+  url: https://macad.uk/
+  description: UK conference for Mac admins with talks, hands-on sessions, exhibitors and networking, held in Brighton.
+  keywords: [macaduk, brighton, uk, sessions, exhibitors]
+
+- name: MacAdmins Community Calendar
+  url: https://macadmins.org/calendar/
+  description: Mac Admins Foundation calendar of conferences, meetups and events, with links to event sites and video archives and an .ics download.
+  keywords: [events, conferences, meetup, ics, calendar]
+
+- name: MacAdmins Conference
+  url: https://macadmins.psu.edu/
+  description: Annual Penn State conference for people who deploy and manage Apple devices, with sessions, workshops and videos on YouTube.
+  keywords: [psu, penn state, macadmins conference, workshops, session videos]
+
+- name: MacAdmins Europe
+  url: https://macadmins-eu.org
+  description: One-day in-person conference for the European Apple admin community, with Discord, Slack and GitHub community channels.
+  keywords: [mae, europe, netherlands, community, sessions]
+
+- name: MacAdmins India
+  url: https://conference.macadmins.in
+  description: Mac Admins India Connect, a conference for the Apple admin community in India.
+  keywords: [maic, india, macadmins india, community]
+
+- name: MacDevOpsYVR
+  url: https://mdoyvr.com/
+  description: Two-day conference on applying DevOps practices to Mac administration, with workshops, talks and in-person or online attendance.
+  keywords: [devops, mdoyvr, automation, workshops, infrastructure as code]
+
+- name: MacSysAdmin Conference
+  url: https://macsysadmin.se/
+  description: Apple admin conference from Gothenburg, Sweden, on device management and security, with session videos in a free online archive.
+  keywords: [macsysadmin, sweden, gothenburg, session videos, security]
+
+- name: Objective by the Sea (OBTS)
+  url: https://objectivebythesea.org/
+  description: Apple security conference organised by the Objective-See Foundation, with talks on macOS and iOS malware, exploits and defence.
+  keywords: [obts, objective-see, malware, infosec, patrick wardle]
+
+- name: X World
+  url: https://auc.edu.au/xworld/
+  description: AUC conference on deploying, managing and supporting Apple devices in education, run alongside /dev/world in Melbourne.
+  keywords: [auc, australia, education, deployment, dev world]

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: MacAdmins Slack
+    url: https://www.macadmins.org/
+    about: Questions about a tool itself are best asked in the MacAdmins Slack.

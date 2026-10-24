@@ -1,0 +1,730 @@
+- name: About alternative app distribution
+  url: https://support.apple.com/118110
+  subcategory: Device Management
+  description: Apple article on installing iPhone and iPad apps from alternative app marketplaces and developer websites in the EU, Brazil and Japan.
+  keywords: [dma, app marketplace, sideloading, notarization, web distribution]
+  platforms: [iOS, iPadOS]
+  tags: [apple]
+
+- name: About iCloud Private Relay
+  url: https://support.apple.com/en-us/102602
+  subcategory: Networking
+  description: Explains how iCloud Private Relay routes Safari traffic through two relays, with guidance for network admins supporting it.
+  keywords:
+  - icloud+
+  - privacy
+  - proxy
+  - firewall
+  - network
+  tags: [apple]
+
+- name: Apple
+  url: https://www.apple.com/
+  subcategory: The basics
+  description: Apple's homepage, with product pages, the online store and links to support, business and education sections.
+  keywords: [store, products, iphone, ipad, macbook]
+  tags: [apple]
+
+- name: Apple - Supported iPad models with latest iPadOS version
+  url: https://support.apple.com/guide/ipad/supported-models-ipad213a25b2/
+  subcategory: Hardware Support
+  description: iPad User Guide page listing which iPad models can run the current iPadOS release.
+  keywords: [compatibility, upgrade, hardware support, os support]
+  platforms: [iPadOS]
+  tags: [apple]
+
+- name: Apple - Supported iPhone models with latest iOS version
+  url: https://support.apple.com/guide/iphone/supported-models-iphe3fa5df43/
+  subcategory: Hardware Support
+  description: iPhone User Guide page listing which iPhone models can run the current iOS release.
+  keywords: [compatibility, upgrade, hardware support, os support]
+  platforms: [iOS]
+  tags: [apple]
+
+- name: Apple Accessibility
+  url: https://www.apple.com/accessibility/
+  subcategory: RFP Materials
+  description: Overview of the vision, hearing, speech, mobility and cognitive accessibility features built into Apple devices.
+  keywords: [voiceover, voice control, assistive technology, rfp, a11y]
+  platforms: [macOS, iOS, iPadOS, watchOS, tvOS, visionOS]
+  tags: [apple]
+
+- name: Apple at Work (Business)
+  url: https://www.apple.com/business/
+  subcategory: The basics
+  description: 'Apple at Work hub for organisations: devices, security, device management, Apple Business, financing and partner links.'
+  keywords: [enterprise, smb, apple business, mdm, financing]
+  tags: [apple]
+
+- name: Apple at Work (Enterprise)
+  url: https://www.apple.com/business/enterprise/
+  subcategory: The basics
+  description: Apple's enterprise page on security, IT management, identity and value of Apple devices, with a form to contact Apple's business team.
+  keywords: [enterprise, tco, it management, rfp, identity]
+  tags: [apple]
+
+- name: Apple Battery Compliance
+  url: https://regulatoryinfo.apple.com/batterymanagement
+  subcategory: RFP Materials
+  description: Battery compliance documents per battery model under the EU Batteries Regulation, covering recycling, labels and safe handling.
+  keywords: [batteries regulation, 2023/1542, battery recycling, safety, rfp]
+  tags: [apple]
+  added: 2026-10-24
+
+- name: 'Apple Beta Software Program: Providing Feedback'
+  url: https://beta.apple.com/provide-feedback
+  subcategory: Beta & feedback
+  description: Apple Beta Software Program guide to reporting bugs and suggestions on prerelease software with Feedback Assistant.
+  keywords: [feedback assistant, bug report, appleseed, radar, prerelease]
+  tags: [apple]
+
+- name: Apple Beta — Resources
+  url: https://beta.apple.com/programs/appleseed-for-it/resources
+  subcategory: Beta & feedback
+  description: 'Members-only AppleSeed for IT resources: test plans, prerelease documentation and tools for evaluating beta software.'
+  keywords: [appleseed, test plans, prerelease, feedback assistant, managed apple account]
+  tags: [apple]
+
+- name: Apple Business
+  url: https://business.apple.com/
+  subcategory: Business
+  description: Apple Business web portal for managing devices, apps, Managed Apple Accounts and the company's Apple Maps presence.
+  keywords: [abm, ade, vpp, managed apple account, apps and books]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS]
+  tags: [apple]
+
+- name: Apple Business - Get apps and books
+  url: https://support.apple.com/guide/business/get-apps-and-books-axmc21817890/web
+  subcategory: Business
+  description: Apple Business guide to buying apps and books in volume and assigning them to users or devices.
+  keywords: [vpp, apps and books, volume purchase, licences, abm]
+  tags: [apple]
+
+- name: Apple Business User Guide
+  url: https://support.apple.com/guide/business/welcome/web
+  subcategory: Business
+  description: 'Apple''s user guide for Apple Business (formerly Apple Business Manager): device enrollment, Managed Apple Accounts, roles and apps.'
+  keywords: [abm, ade, managed apple account, federation, vpp]
+  tags: [apple]
+
+- name: Apple Common Charger
+  url: https://regulatoryinfo.apple.com/commoncharger
+  subcategory: RFP Materials
+  description: 'Common charger information under EU Directive 2022/2380 for each Apple device model: USB-C charging and power specs.'
+  keywords: [usb-c, common charger, 2022/2380, power delivery, eu]
+  tags: [apple]
+  added: 2026-10-24
+
+- name: Apple Configurator Support
+  url: https://support.apple.com/apple-configurator
+  subcategory: Device Management
+  description: 'Apple Configurator support hub: guides, release notes and profile reference for the Mac app and the iPhone app that adds Macs to ABM.'
+  keywords: [supervision, dfu, configuration profile, abm, asm, ade]
+  platforms: [macOS, iOS, iPadOS, tvOS]
+  tags: [apple]
+
+- name: Apple Cyber Security Compliance
+  url: https://regulatoryinfo.apple.com/cyber
+  subcategory: RFP Materials
+  description: Apple's statements of compliance with the UK PSTI product security law and Australia's security standards for smart devices.
+  keywords: [psti, uk, australia, cyber security, smart devices, rfp]
+  tags: [apple]
+  added: 2026-10-24
+
+- name: Apple Declarations of Conformity (EU / UK)
+  url: https://regulatoryinfo.apple.com/en/eurocompliance
+  subcategory: RFP Materials
+  description: Apple's EU and UK declarations of conformity for each Mac, iPad, iPhone, Watch, AirPods and accessory model.
+  keywords: [ce marking, ukca, doc, eu compliance, model number, rfp]
+  tags: [apple]
+
+- name: Apple Deployment and Management Course
+  url: https://it-training.apple.com/deployment/tutorials/course/
+  subcategory: IT Training
+  description: Apple Professional Training course of about 17 hours on deploying and managing Apple devices, for the Deployment and Management exam.
+  keywords: [abm, mdm, enrollment, acit, it training, ade]
+  platforms: [macOS, iOS, iPadOS]
+  tags: [apple]
+
+- name: Apple Design Resources
+  url: https://developer.apple.com/design/resources/
+  subcategory: Developers
+  description: Official Apple UI kits for Figma and Sketch, app icon templates, SF fonts, SF Symbols and device bezels for designing apps.
+  keywords: [mockups, sf pro, templates, icon composer, product images]
+  platforms: [iOS, iPadOS, macOS, tvOS, watchOS, visionOS]
+  tags: [apple]
+
+- name: Apple Developer Enterprise Program
+  url: https://developer.apple.com/programs/enterprise/
+  subcategory: Developers
+  description: Apple program letting organisations with 100+ employees sign and distribute proprietary in-house apps to their staff.
+  keywords: [in-house apps, enterprise distribution, code signing, d-u-n-s, mdm]
+  tags: [apple]
+
+- name: Apple Device Support Course
+  url: https://it-training.apple.com/support/tutorials/course/
+  subcategory: IT Training
+  description: Apple Professional Training course of about 9 hours on supporting Apple devices, preparing for the Apple Device Support exam.
+  keywords: [acsp, certification, help desk, troubleshooting, apple training]
+  platforms: [macOS, iOS, iPadOS]
+  tags: [apple]
+
+- name: Apple Education
+  url: https://www.apple.com/education/
+  subcategory: The basics
+  description: Apple's education site covering Mac and iPad in classrooms, professional learning, IT services and education purchasing.
+  keywords: [k-12, higher education, schools, teachers, education pricing]
+  tags: [apple]
+
+- name: Apple Environment
+  url: https://www.apple.com/environment/
+  subcategory: RFP Materials
+  description: Apple's environment hub on its carbon neutral goal, recycled materials, recycling and downloadable product environmental reports.
+  keywords: [rfp, sustainability, apple 2030, carbon footprint, esg]
+  tags: [apple]
+
+- name: Apple Environment Answers
+  url: https://www.apple.com/environment/answers/
+  subcategory: RFP Materials
+  description: Apple's FAQ on environmental topics such as carbon emissions, restricted substances, recycling, repair and EU compliance.
+  keywords: [rfp, sustainability, rohs, reach, weee, carbon neutral]
+  tags: [apple]
+
+- name: Apple Environmental Regulatory Information
+  url: https://regulatoryinfo.apple.com/regulatorydata
+  subcategory: RFP Materials
+  description: 'Apple''s EU and French environmental disclosures: ecodesign, energy labels, repairability index, REACH, RoHS, battery and packaging rules.'
+  keywords: [ecodesign, energy label, repairability index, reach, rohs, rfp]
+  tags: [apple]
+  added: 2026-10-24
+
+- name: Apple EU Data Act
+  url: https://regulatoryinfo.apple.com/eudataact
+  subcategory: RFP Materials
+  description: Apple's information under the EU Data Act (Regulation 2023/2854) on access to data generated by its products, as PDFs per language.
+  keywords: [eu data act, 2023/2854, data access, gdpr, rfp]
+  tags: [apple]
+  added: 2026-10-24
+
+- name: Apple Events
+  url: https://www.apple.com/apple-events/
+  subcategory: The basics
+  description: Apple's page for keynote events, with video replays (including ASL versions) and an archive of past events such as WWDC.
+  keywords: [keynote, wwdc, livestream, product launch]
+  tags: [apple]
+
+- name: Apple Hearing Protection Data Sheets
+  url: https://regulatoryinfo.apple.com/hearingprotection
+  subcategory: RFP Materials
+  description: Hearing protection data sheets for AirPods Pro models, listed by model number.
+  keywords: [airpods pro, hearing protection, attenuation, data sheet]
+  tags: [apple]
+  added: 2026-10-24
+
+- name: Apple Instructions for Use (Health features)
+  url: https://regulatoryinfo.apple.com/ifu
+  subcategory: RFP Materials
+  description: Instructions for use of Apple's regulated health features, such as the ECG app, irregular rhythm notifications and AFib History.
+  keywords: [ifu, ecg, afib, medical device, apple watch]
+  tags: [apple]
+  added: 2026-10-24
+
+- name: Apple Legal
+  url: https://www.apple.com/legal/
+  subcategory: RFP Materials
+  description: Apple's legal hub with hardware warranties, software licence agreements, privacy policy, service terms and IP guidelines.
+  keywords: [sla, eula, warranty, privacy policy, terms, rfp]
+  tags: [apple]
+
+- name: Apple Manuals, Specs, and Downloads
+  url: https://support.apple.com/docs/
+  subcategory: Hardware Support
+  description: Apple Support hub for product manuals, technical specifications and software downloads, browsable by product category.
+  keywords: [tech specs, user guide, pdf manual, hardware]
+  tags: [apple]
+
+- name: Apple Newsroom
+  url: https://www.apple.com/newsroom/
+  subcategory: The basics
+  description: Apple's official news site with press releases, announcements, videos and downloadable press images.
+  keywords: [press, announcements, media, keynote, news]
+  tags: [apple]
+
+- name: Apple on GitHub
+  url: https://github.com/apple
+  subcategory: Developers
+  description: Apple's GitHub organisation with its open-source projects, such as container, FoundationDB, Pkl and Swift server libraries.
+  keywords: [open source, container, pkl, foundationdb]
+  tags: [apple]
+
+- name: Apple on YouTube
+  url: https://www.youtube.com/user/apple
+  subcategory: The basics
+  description: Apple's official YouTube channel with product launch videos, keynotes, ads and tutorials.
+  keywords: [video, keynote, product launch, wwdc]
+  tags: [apple]
+
+- name: Apple Platform Certifications
+  url: https://support.apple.com/guide/certifications/welcome/web
+  subcategory: Security
+  description: 'Apple''s status of security certifications for its OSes, hardware and services: cryptographic modules, Common Criteria and more.'
+  keywords: [fips 140, common criteria, compliance, soc 3, mscp]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  tags: [apple]
+
+- name: Apple Platform Deployment
+  url: https://support.apple.com/guide/deployment/welcome/web
+  subcategory: Deployment
+  description: Apple’s official guide to deploying and managing Apple devices.
+  keywords: [mdm, ade, ddm, managed apple account, payloads]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  tags: [apple]
+
+- name: Apple Platform Security
+  url: https://support.apple.com/guide/security/welcome/web
+  subcategory: Security
+  description: Apple’s official reference on hardware and software security.
+  keywords: [secure enclave, filevault, data protection, secure boot, encryption]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  tags: [apple]
+
+- name: Apple Privacy
+  url: https://www.apple.com/privacy/
+  subcategory: RFP Materials
+  description: 'Apple''s privacy overview: on-device processing, Private Cloud Compute, app privacy features, tracking protection and policy links.'
+  keywords: [rfp, data protection, app tracking transparency, privacy policy, apple intelligence]
+  tags: [apple]
+
+- name: Apple Privacy Control
+  url: https://www.apple.com/privacy/control/
+  subcategory: RFP Materials
+  description: 'Explains the privacy controls on Apple devices: app permissions, tracking, location, ads, data requests and account security.'
+  keywords: [rfp, app privacy report, data and privacy, lockdown mode, stolen device protection]
+  tags: [apple]
+
+- name: Apple Privacy Labels
+  url: https://www.apple.com/privacy/labels/
+  subcategory: RFP Materials
+  description: Privacy nutrition labels for Apple's own apps, showing what data each app collects and how it is used.
+  keywords: [rfp, app store, nutrition label, privacy disclosure, data collection]
+  platforms: [iOS, iPadOS, macOS, watchOS, visionOS, tvOS]
+  tags: [apple]
+
+- name: Apple Push Certificates Portal
+  url: https://identity.apple.com/pushcert/
+  subcategory: Deployment
+  description: Apple portal for creating and renewing the APNs certificate an on-premises or third-party MDM server needs to reach devices.
+  keywords: [apns, mdm, push certificate, renewal, jamf pro]
+  tags: [apple]
+
+- name: Apple RF Exposure
+  url: https://regulatoryinfo.apple.com/en/rfexposure
+  subcategory: RFP Materials
+  description: Radio frequency exposure information (SAR) per Apple device model, for Mac, iPad, iPhone, Watch and Vision Pro.
+  keywords: [sar, radio frequency, rf exposure, model number, rfp]
+  tags: [apple]
+  added: 2026-10-24
+
+- name: Apple School Manager
+  url: https://school.apple.com/
+  subcategory: Education
+  description: Apple School Manager web portal for schools to manage devices, apps, Managed Apple Accounts and classes.
+  keywords: [asm, ade, vpp, managed apple account, sis]
+  tags: [apple]
+
+- name: Apple School Manager User Guide
+  url: https://support.apple.com/guide/apple-school-manager/welcome/web
+  subcategory: Education
+  description: 'Apple''s guide to Apple School Manager: SIS and IdP account sync, device assignment, Apps and Books, roles and Classroom.'
+  keywords: [asm, sis, federation, managed apple account, vpp]
+  tags: [apple]
+
+- name: Apple Security Bounty
+  url: https://security.apple.com/bounty/
+  subcategory: Security
+  description: Apple's bug bounty program, explaining how to report security and privacy vulnerabilities and what rewards they can earn.
+  keywords: [bug bounty, vulnerability disclosure, exploits, security research]
+  tags: [apple]
+
+- name: Apple Security Releases
+  url: https://support.apple.com/en-us/100100
+  subcategory: Security
+  description: Apple's list of security updates for its software, with links to each release's advisory and CVE details.
+  keywords: [cve, patching, vulnerabilities, security updates, advisories]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  tags: [apple]
+
+- name: Apple Security Research Blog
+  url: https://security.apple.com/blog/
+  subcategory: Security
+  description: Apple Security Research's blog with technical posts on its security work, such as Private Cloud Compute and iMessage PQ3.
+  keywords: [security research, memory integrity enforcement, pq3, private cloud compute, exploits]
+  tags: [apple]
+
+- name: Apple security-announce mailing list
+  url: https://lists.apple.com/mailman3/lists/security-announce.lists.apple.com/
+  subcategory: Security
+  description: Apple mailing list that announces security updates and advisories for its software, with subscription and archive links.
+  keywords: [cve, advisories, patching, notifications, vulnerabilities]
+  tags: [apple]
+
+- name: Apple Supply Chain
+  url: https://www.apple.com/supply-chain/
+  subcategory: RFP Materials
+  description: 'Apple''s supply chain overview: Supplier Code of Conduct, audits, worker rights, health and safety and environmental programs.'
+  keywords: [rfp, supplier responsibility, csr, human rights, esg]
+  tags: [apple]
+
+- name: Apple Support
+  url: https://support.apple.com/
+  subcategory: Support
+  description: Apple's support site with help articles, device sections, repair and AppleCare options, contact routes and Apple Communities.
+  keywords: [applecare, repair, help articles, contact apple, warranty]
+  tags: [apple]
+
+- name: Apple Support on YouTube
+  url: https://www.youtube.com/applesupport
+  subcategory: The basics
+  description: Apple Support's YouTube channel with short how-to videos for using and troubleshooting Apple devices.
+  keywords: [how-to, video, tutorials, end user training]
+  tags: [apple]
+
+- name: Apple System Status
+  url: https://www.apple.com/support/systemstatus/
+  subcategory: The basics
+  description: Apple's live status board for its online services such as iCloud, the App Store, Apple Account and Apple Business.
+  keywords: [outage, service status, icloud, downtime]
+  tags: [apple]
+
+- name: Apple VPATs (Accessibility)
+  url: https://regulatoryinfo.apple.com/accessibility
+  subcategory: RFP Materials
+  description: Voluntary Product Accessibility Templates (VPATs) as PDFs for Apple hardware and software, describing Section 508 conformance.
+  keywords: [vpat, section 508, wcag, accessibility conformance, rfp]
+  tags: [apple]
+  added: 2026-10-24
+
+- name: Apple YouTube Shorts
+  url: https://www.youtube.com/@Apple/shorts
+  subcategory: The basics
+  description: Short-form vertical videos from Apple's official YouTube channel.
+  keywords: [video, shorts, tips, social]
+  tags: [apple]
+
+- name: apple/container
+  url: https://github.com/apple/container/
+  subcategory: Developers
+  description: Swift tool from Apple that creates and runs OCI Linux containers in lightweight virtual machines on Apple silicon Macs.
+  keywords: [docker, linux containers, virtualization, podman, containerization]
+  platforms: [macOS]
+  cost: open-source
+  tags: [apple]
+
+- name: apple/device-management
+  url: https://github.com/apple/device-management
+  subcategory: Device Management
+  description: Apple's YAML schema data for MDM commands, check-in, profile payloads and declarative device management declarations.
+  keywords: [ddm, mdm payloads, schema, profile keys, status items]
+  platforms: [iOS, macOS, tvOS, visionOS, watchOS]
+  cost: open-source
+  tags: [apple]
+
+- name: AppleCare for Enterprise
+  url: https://www.apple.com/support/professional/enterprise/
+  subcategory: Support
+  description: AppleCare plan for large fleets with onsite hardware service, 24/7 end-user phone support and IT help desk support.
+  keywords: [applecare, onsite repair, support contract, help desk, service]
+  platforms: [macOS, iOS, iPadOS]
+  tags: [apple]
+
+- name: AppleCare Help Desk Support
+  url: https://www.apple.com/support/professional/help-desks/
+  subcategory: Support
+  description: Annual AppleCare plan giving two technical contacts unlimited phone support from Apple for hardware and software issues.
+  keywords: [applecare, support contract, help desk, abm, asm]
+  platforms: [macOS, iOS, iPadOS, tvOS, watchOS]
+  tags: [apple]
+
+- name: AppleCare OS Support
+  url: https://www.apple.com/support/professional/it-departments/
+  subcategory: Support
+  description: AppleCare OS Support plans (Select, Preferred, Alliance) giving IT departments enterprise-level help with deployment and integration.
+  keywords: [applecare, support contract, enterprise support, escalation, deployment]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  tags: [apple]
+
+- name: AppleSeed for IT
+  url: https://beta.apple.com/for-it
+  subcategory: Beta & feedback
+  description: Apple beta program for organisations to test prerelease OS and app builds in their own environment and report via Feedback Assistant.
+  keywords: [appleseed, prerelease, feedback assistant, managed apple account, test plans]
+  platforms: [macOS, iOS, iPadOS, tvOS, watchOS]
+  tags: [apple]
+
+- name: Changes for apps in the European Union (Apple Developer)
+  url: https://developer.apple.com/support/dma-and-apps-in-the-eu/
+  subcategory: Device Management
+  description: 'Explains Apple''s EU Digital Markets Act changes for developers: alternative app marketplaces, web distribution, payments and fees.'
+  keywords: [dma, eu, sideloading, core technology commission, browser engine]
+  platforms: [iOS, iPadOS]
+  tags: [apple]
+
+- name: Contact Apple about APNs certificates
+  url: https://support.apple.com/118629
+  subcategory: Deployment
+  description: Phone numbers by country and an email address for Apple Deployment Programs Support, for help with APNs certificates.
+  keywords: [apns, push certificate, phone numbers, apple push certificates portal, abm]
+  tags: [apple]
+
+- name: Contact Us (Apple Developer)
+  url: https://developer.apple.com/contact/#!/topic/select
+  subcategory: Developers
+  description: Apple Developer contact form for membership, account, App Store Connect, program and technical support requests.
+  keywords: [developer support, apple developer program, app store connect, membership, enrollment]
+  tags: [apple]
+
+- name: Credly Certified Professionals Directory
+  url: https://www.credly.com/organizations/apple/directory
+  subcategory: IT Training
+  description: Credly directory of people who hold Apple certification badges, for verifying Apple IT and support credentials.
+  keywords: [acsp, acit, certification, digital badges, verify credentials]
+
+- name: Design (Apple Developer)
+  url: https://developer.apple.com/design/
+  subcategory: Developers
+  description: Apple's design hub linking the Human Interface Guidelines, design templates, SF Symbols, Icon Composer and design videos.
+  keywords: [hig, ui design, app icons, liquid glass, ux]
+  tags: [apple]
+
+- name: Develop in Swift (Apple Education Community)
+  url: https://education.apple.com/learning-center/T021340A
+  subcategory: Developers
+  description: Apple curriculum that helps educators guide high school and college students through designing and building apps in Swift.
+  keywords: [curriculum, xcode, teachers, students, certiport, app development]
+  tags: [apple]
+
+- name: Develop in Swift Tutorials
+  url: https://developer.apple.com/tutorials/develop-in-swift/
+  subcategory: Developers
+  description: Apple's tutorials introducing app development with Swift, SwiftUI and Xcode for anyone learning to build apps.
+  keywords: [swiftui, xcode, learn programming, beginner, coding]
+  tags: [apple]
+
+- name: Device Management (Apple Developer Documentation)
+  url: https://developer.apple.com/documentation/devicemanagement?language=objc
+  subcategory: Device Management
+  description: Apple's developer reference for the MDM protocol, configuration profile payloads, commands and declarative device management.
+  keywords: [ddm, mdm protocol, payload keys, mobileconfig, declarations, api]
+  platforms: [iOS, iPadOS, macOS, tvOS, watchOS, visionOS]
+  tags: [apple]
+
+- name: Device management essentials (Apple Developer Documentation)
+  url: https://developer.apple.com/documentation/devicemanagement/device-management-essentials
+  subcategory: Device Management
+  description: Apple developer article on setting up and maintaining MDM connectivity with devices and adopting declarative device management.
+  keywords: [mdm protocol, ddm, check-in, apns, enrollment]
+  tags: [apple]
+
+- name: Get started with your Mac
+  url: https://support.apple.com/guide/mac-help/get-started-with-your-mac-mchl3a2c2cb0/mac
+  subcategory: User Training
+  description: Mac User Guide chapter for new users on setting up a Mac, signing in with an Apple Account, settings, apps and Safari.
+  keywords: [end user, onboarding, new mac setup, switching from windows, user guide]
+  platforms: [macOS]
+  tags: [apple]
+
+- name: How iOS, iPadOS and macOS decide which wireless network to auto-join
+  url: https://support.apple.com/en-gb/102169
+  subcategory: Networking
+  description: 'Apple''s ranking of how devices pick among known Wi-Fi networks: preference, private vs public, MDM-installed, standard, band, security.'
+  keywords: [wi-fi, auto-join, ssid priority, wifi payload, 6 ghz, roaming]
+  platforms: [iOS, iPadOS, macOS]
+  tags: [apple]
+
+- name: How to identify the DFU port on Mac
+  url: https://support.apple.com/en-gb/120694
+  subcategory: Hardware Support
+  description: Apple's table of which USB-C port is the DFU port on each Mac model, needed to revive or restore firmware.
+  keywords: [dfu, apple configurator, revive, restore, apple silicon, t2]
+  platforms: [macOS]
+  tags: [apple]
+
+- name: Identify your Apple keyboard layout
+  url: https://support.apple.com/102743
+  subcategory: Hardware Support
+  description: Shows how to tell an Apple keyboard's country or region layout (ANSI, ISO or JIS) from its Return, Tab and symbol keys.
+  keywords: [ansi, iso, jis, keyboard replacement, azerty, qwerty]
+  platforms: [macOS]
+  tags: [apple]
+
+- name: iPad User Guide
+  url: https://support.apple.com/guide/ipad/welcome/ipados
+  subcategory: User Training
+  description: Apple's official iPad user guide covering setup, gestures, multitasking, Apple Pencil and the built-in apps.
+  keywords: [end user, manual, stage manager, training, how-to]
+  platforms: [iPadOS]
+  tags: [apple]
+
+- name: iPhone User Guide
+  url: https://support.apple.com/guide/iphone/welcome/ios
+  subcategory: User Training
+  description: Apple's official iPhone user guide covering setup, personalisation, camera, calls, messages and the built-in apps.
+  keywords: [end user, manual, training, how-to, ios]
+  platforms: [iOS]
+  tags: [apple]
+
+- name: IT Training
+  url: https://training.apple.com/it
+  subcategory: IT Training
+  description: 'Apple''s self-paced IT courses and certification exams: Device Support, Deployment and Management, Mac Security Compliance.'
+  keywords: [acsp, acit, certification, exam, mscp, apple business essentials]
+  platforms: [macOS, iOS, iPadOS]
+  tags: [apple]
+
+- name: Learn (Apple Developer)
+  url: https://developer.apple.com/learn/
+  subcategory: Developers
+  description: Apple Developer hub for learning to build apps, with Develop in Swift tutorials, Pathways, videos and student programs.
+  keywords: [swift playgrounds, swiftui, coding, swift student challenge, beginner]
+  tags: [apple]
+
+- name: Mac Skills Series
+  url: https://apple.co/macskills
+  subcategory: User Training
+  description: Apple's event series teaching end users everyday Mac skills, for enterprise, government and education organisations.
+  keywords: [end user training, switching to mac, onboarding, video, adoption]
+  platforms: [macOS]
+  tags: [apple]
+
+- name: Mac Technical Skills Series
+  url: https://apple.co/techskills
+  subcategory: IT Training
+  description: Apple's event series on Mac technical skills for IT and helpdesk staff; the technical companion to the Mac Skills Series.
+  keywords: [helpdesk, it support, training, apple at work, events]
+  tags: [apple]
+
+- name: macOS Security Compliance Project (Apple Platform Certifications)
+  url: https://support.apple.com/guide/certifications/macos-security-compliance-project-apc322685bb2/web
+  subcategory: Security
+  description: Apple's overview of the NIST-led mSCP, which generates macOS baselines, scripts, profiles and audit checklists for CIS, STIG and more.
+  keywords: [mscp, nist 800-53, cis benchmark, disa stig, compliance, cmmc]
+  platforms: [macOS]
+  tags: [apple]
+
+- name: Mail Support
+  url: https://support.apple.com/mail
+  subcategory: User Training
+  description: 'Apple Support hub for the Mail app on Mac, iPhone and iPad: account setup, sending problems, iCloud Mail and Hide My Email.'
+  keywords: [email, troubleshooting, end user, imap, mail accounts]
+  platforms: [macOS, iOS, iPadOS]
+  tags: [apple]
+
+- name: Meet declarative device management (WWDC21)
+  url: https://developer.apple.com/videos/play/wwdc2021/10131/
+  subcategory: Device Management
+  description: 'Apple session introducing declarative device management: declarations, activations, the status channel and how MDM servers adopt it.'
+  keywords: [ddm, wwdc, status reports, mdm vendors, video]
+  platforms: [iOS, iPadOS]
+  tags: [apple]
+
+- name: MFi Accessory Search
+  url: https://mfi.apple.com/account/accessory-search
+  subcategory: Hardware Support
+  description: Apple's search for accessories certified under the MFi (Made for iPhone/iPad) program, to check a cable or accessory is genuine.
+  keywords: [made for iphone, certified accessories, lightning, cables, counterfeit]
+  platforms: [iOS, iPadOS]
+  tags: [apple]
+
+- name: Official Apple Support Community
+  url: https://discussions.apple.com/welcome
+  subcategory: Support
+  description: Apple's user-to-user support forums, organised by product, where customers ask questions and share tips.
+  keywords:
+  - discussions
+  - forum
+  - troubleshooting
+  - q&a
+  - apple communities
+  tags: [apple]
+
+- name: Private Cloud Compute Security Guide
+  url: https://security.apple.com/documentation/private-cloud-compute
+  subcategory: Security
+  description: Apple's security guide to Private Cloud Compute, the server system that processes Apple Intelligence requests, and its privacy guarantees.
+  keywords: [pcc, ai, security research, attestation, virtual research environment]
+  tags: [apple]
+
+- name: Profiles and Logs (Feedback Assistant)
+  url: https://developer.apple.com/bug-reporting/profiles-and-logs/
+  subcategory: Beta & feedback
+  description: Apple's library of logging profiles and instructions for capturing sysdiagnose and subsystem logs to attach to Feedback Assistant reports.
+  keywords: [mobileconfig, debug logging, bug report, wi-fi logs, bluetooth logs]
+  platforms: [iOS, iPadOS, macOS, tvOS, watchOS, visionOS]
+  tags: [apple]
+
+- name: Purchase Pearson vouchers
+  url: https://applecertstore1.pearsonvue.com/apple-it-exam-voucher-for-exams-9l0-3019-9l0-3021/p/APLVCH-9L0-PUB149
+  subcategory: IT Training
+  description: Pearson VUE store page selling vouchers for the Apple Device Support and Apple Deployment and Management certification exams.
+  keywords: [exam voucher, certification, acsp, acit, pearson vue]
+  cost: paid
+
+- name: TCP and UDP ports used by Apple software products
+  url: https://support.apple.com/en-us/103229
+  subcategory: Networking
+  description: Apple's table of the network ports and protocols that macOS, iOS and iCloud services use, for firewall and proxy rules.
+  keywords: [firewall allowlist, network ports, apns, network requirements, proxy]
+  platforms: [macOS, iOS]
+  tags: [apple]
+
+- name: Transfer Apple services (Apple Business)
+  url: https://support.apple.com/guide/business/transfer-apple-services-axm6603d9206/web
+  subcategory: Business
+  description: Apple Business guide to moving existing accounts and Apple services to Managed Apple Accounts when claiming or federating a domain.
+  keywords: [abm, federation, managed apple account, domain conflict, sso, azure ad]
+  tags: [apple]
+
+- name: UPIK® platform - Dun & Bradstreet
+  url: https://www.dnb.com/de-de/upik-en/
+  subcategory: Business
+  description: Dun & Bradstreet company search for finding a D-U-N-S Number, which Apple requires when enrolling an organisation.
+  keywords: [duns, d-u-n-s, abm enrollment, apple developer program, organization verification]
+
+- name: Use Apple products on enterprise networks
+  url: https://support.apple.com/en-us/101555
+  subcategory: Networking
+  description: Apple's list of hosts, ports and protocols devices need for setup, MDM, updates and iCloud, for firewall and proxy rules.
+  keywords: [firewall, proxy, apns, ssl inspection, allowlist, ports]
+  platforms: [macOS, iOS, iPadOS, tvOS, watchOS, visionOS]
+  tags: [apple]
+
+- name: Use private Wi-Fi addresses on Apple devices
+  url: https://support.apple.com/en-us/102509
+  subcategory: Networking
+  description: Explains Apple's private Wi-Fi address feature, its Off, Fixed and Rotating modes, and what it means for managed networks.
+  keywords: [mac address randomization, wifi privacy, rotating address, nac, 802.1x]
+  platforms: [macOS, iOS, iPadOS, watchOS, visionOS]
+  tags: [apple]
+
+- name: Volume Purchase and Custom Apps (Apple Developer)
+  url: https://developer.apple.com/custom-apps/
+  subcategory: Developers
+  description: 'Explains how developers offer apps to organisations via Apple Business and School Manager: volume purchase, education pricing, custom apps.'
+  keywords: [abm, asm, vpp, private distribution, app store connect, organization id]
+  tags: [apple]
+
+- name: Wi-Fi roaming support
+  url: https://support.apple.com/guide/deployment/wi-fi-roaming-support-dep98f116c0f/web
+  subcategory: Networking
+  description: Explains how Apple devices decide when to roam between access points and which of 802.11k, r, v and u each device supports.
+  keywords: [802.11r, 802.11k, 802.11v, fast roaming, cisco, wireless]
+  platforms: [macOS, iOS, iPadOS, visionOS]
+  tags: [apple]
+
+- name: Wi-Fi specifications for Apple devices
+  url: https://support.apple.com/guide/deployment/wi-fi-specifications-for-apple-devices-dep268652e6c/web
+  subcategory: Networking
+  description: 'Apple''s tables of Wi-Fi and Ethernet specs per device model: 802.11 standards, bands, data rates, channel width and streams.'
+  keywords: [802.11ax, wi-fi 6e, ethernet, mimo, wireless, network planning]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS]
+  tags: [apple]

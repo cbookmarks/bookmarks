@@ -1,0 +1,1618 @@
+- name: ABM Warranty information query
+  url: https://apps.apple.com/be/app/abm-warranty/id6755319278
+  subcategory: Inspection
+  description: Mac app that pulls device warranty and AppleCare+ coverage from the Apple Business Manager API, with status flags and CSV export.
+  keywords: [abm, asm, applecare, warranty, inventory, msp]
+  platforms: [macOS]
+  cost: freemium
+
+- name: Add2ABM
+  url: https://github.com/Inetum-Poland/add2abm
+  subcategory: Onboarding
+  description: Script run from macOS Recovery that re-triggers Setup Assistant so a configured Mac can enrol via ABM or ASM without a wipe.
+  keywords: [abm, asm, ade, enrollment, setup assistant, recovery]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  cost: open-source
+
+- name: Adobe Overview Feed for Apple
+  url: https://github.com/cocopuff2u/AOFA
+  subcategory: App management
+  description: Hourly feed of Adobe Creative Cloud app versions, release dates and download links for macOS, published as JSON, YAML and XML.
+  keywords: [adobe, creative cloud, version feed, patching, aofa]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Aftermath
+  url: https://github.com/jamf/aftermath
+  subcategory: Security & identity
+  description: Incident response framework that collects forensic data from a Mac into an archive and analyses it into a timeline and storyline.
+  keywords: [incident response, forensics, dfir, threat hunting, jamf threat labs]
+  platforms: [macOS]
+  cost: open-source
+
+- name: AirDrop Assistant
+  url: https://github.com/boberito/AirDropAssistant
+  subcategory: User environment
+  description: Menu bar app that switches AirDrop back to Contacts Only or Off after a set time, configurable by MDM profile.
+  keywords: [airdrop, configuration profile, sharingd, privacy, ada]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Amphetamine
+  url: https://apps.apple.com/us/app/amphetamine/id937984704?mt=12
+  subcategory: Productivity
+  description: Menu bar keep-awake app that stops a Mac or its displays sleeping, manually or via triggers such as apps, displays or Wi-Fi.
+  keywords: [caffeinate, keep awake, prevent sleep, menu bar, mac app store]
+  platforms: [macOS]
+  cost: free
+
+- name: App-Auto-Patch
+  url: https://www.appautopatch.app/
+  subcategory: App management
+  description: Finds installed apps and updates them via Installomator, with swiftDialog prompts, deferrals and silent background patching.
+  keywords: [installomator, swiftdialog, patching, patch management, aap]
+  platforms: [macOS]
+  works_with: [any-mdm, jamf, intune]
+  cost: open-source
+
+- name: Apparency
+  url: https://www.mothersruin.com/software/Apparency/
+  subcategory: Inspection
+  description: Inspects an app bundle's code signature, notarization, Gatekeeper result, sandbox status, entitlements and Info.plist.
+  keywords: [codesign, notarization, entitlements, gatekeeper, bundle id, pppc]
+  platforms: [macOS]
+
+- name: AppCleaner
+  url: https://freemacsoft.net/appcleaner/
+  subcategory: Utilities
+  description: Drag-and-drop app uninstaller that finds an application's related support files and deletes them along with it.
+  keywords: [uninstall, uninstaller, leftover files, cleanup, freemacsoft]
+  platforms: [macOS]
+  cost: free
+
+- name: Apple Policy Explorer
+  url: https://appledevicepolicy.tools/policy-explorer
+  subcategory: Profiles & compliance
+  description: Searchable reference of Apple MDM and DDM policies with keys, supported platforms, deprecations and links to Apple's docs.
+  keywords: [ddm, mdm, payloads, declarative device management, configuration profile]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+
+- name: AppSettings2Blueprint
+  url: https://github.com/JordyThery/AppSettings2Blueprint
+  subcategory: Jamf
+  description: Finds app identifiers, builds App Settings allow and deny rules and deploys them as a Jamf Blueprint.
+  keywords: [app settings, ddm, blueprints, bundle id, team id]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: AppSettingsUtility
+  url: https://github.com/cantscript/AppSettingsUtility
+  subcategory: Inspection
+  description: Interactive macOS shell script that finds the app and binary identifiers needed for Apple's App Settings declaration.
+  keywords: [app settings, ddm, declaration, bundle id, team id, cdhash]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  cost: open-source
+  added: 2026-10-24
+  submitted_by: '@JordyThery'
+
+- name: Aurora Screen Shot
+  url: https://leo2008k.github.io/AuroraScreenShot
+  subcategory: Utilities
+  description: Screenshot app with annotation, blur and redaction, OCR text extraction and optional local AI analysis through Ollama.
+  keywords: [screenshot, annotation, redaction, ocr, ollama]
+  platforms: [macOS]
+
+- name: AutoPKG
+  url: https://github.com/autopkg/autopkg
+  subcategory: App management
+  description: Automates downloading and packaging app updates using community recipes.
+  keywords: [recipes, munki, jamf pro, packaging, patching]
+  platforms: [macOS]
+  works_with: [munki, jamf, filewave]
+  cost: open-source
+
+- name: AutoPkgr
+  url: https://github.com/lindegroup/autopkgr
+  subcategory: Packaging
+  description: Mac app that installs, configures and schedules AutoPkg runs through a graphical interface instead of the command line.
+  keywords: [autopkg, recipes, gui, scheduling, packaging]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Awesome MacAdmin Tools
+  url: https://github.com/smashism/awesome-macadmin-tools
+  subcategory: Scripts & references
+  description: Curated list of Mac admin tools for deployment, packaging, onboarding, menu bar helpers, text editing and utilities.
+  keywords: [awesome list, deployment, onboarding, packaging]
+  cost: open-source
+
+- name: AwesomeIntune
+  url: https://github.com/ugurkocde/awesomeintune
+  subcategory: Intune
+  description: Community catalogue of Microsoft Intune tools, PowerShell scripts and resources, browsable by category at awesomeintune.com.
+  keywords: [intune, powershell, microsoft endpoint, graph api, awesome list]
+  works_with: [intune]
+  cost: open-source
+
+- name: AxMJamfSync
+  url: https://github.com/karthikeyan-mac/AxMJamfSync
+  subcategory: Jamf
+  description: Mac app that pulls AppleCare warranty coverage from Apple Business or School Manager and writes it into Jamf Pro device records.
+  keywords: [abm, asm, applecare, warranty, purchasing, api]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Baseline
+  url: https://github.com/secondsonconsulting/baseline
+  subcategory: Onboarding
+  description: Zero-touch setup that installs packages, runs scripts and Installomator labels from a config profile, with swiftDialog progress.
+  keywords: [installomator, swiftdialog, zero touch, onboarding, enrollment]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  cost: open-source
+
+- name: Bash OneLiner
+  url: https://github.com/onceupon/Bash-Oneliner
+  subcategory: Scripts & references
+  description: Collection of Bash one-liners and terminal tricks for text processing, grep, xargs, variables and system maintenance.
+  keywords: [grep, xargs, terminal, linux, cheat sheet]
+  cost: open-source
+
+- name: BBEdit
+  url: https://www.barebones.com/products/bbedit/
+  subcategory: Editors
+  description: Text and code editor with grep search and replace across files, syntax colouring, SFTP and Git, usable free after a trial.
+  keywords: [text editor, grep, scripting, bare bones, code editor]
+  platforms: [macOS]
+  cost: freemium
+
+- name: Bezel
+  url: https://nonstrict.eu/bezel/
+  subcategory: Productivity
+  description: Mac app that mirrors and records an iPhone, iPad or Apple TV screen over AirPlay or USB, with device frames for demos.
+  keywords: [screen mirroring, airplay, screen recording, demo, presentation]
+  platforms: [macOS]
+  cost: freemium
+
+- name: Blueprint Managed Preferences Editor
+  url: https://github.com/JordyThery/Blueprint-Managed-Preferences-Editor
+  subcategory: Jamf
+  description: Edits the read-only Managed Preferences that Jamf Pro creates when classic profiles are converted to Blueprints.
+  keywords: [blueprints, managed preferences, custom settings, plist, jamf platform api]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: BOFA Browser Overview
+  url: https://bofa.cocolabs.dev
+  subcategory: App management
+  description: Feed of current Chrome, Firefox, Edge and Safari versions for Mac admins tracking browser patching.
+  keywords: [browser versions, patching, chrome, edge, firefox, sofa]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Bootstrap Buddy
+  url: https://github.com/Inetum-Poland/bootstrap-buddy
+  subcategory: Security & identity
+  description: Authorization plugin that escrows a Bootstrap Token to the MDM at the next Volume Owner login on Macs missing one.
+  keywords: [bootstrap token, escrow, authorization plugin, escrow buddy, loginwindow]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  cost: open-source
+
+- name: Box of Apples
+  url: https://github.com/txhaflaire/box-of-apples
+  subcategory: Virtualization
+  description: Mac app and CLI for macOS VMs on Apple's Virtualization framework, with templates, snapshots, runbooks and a guest agent.
+  keywords: [vm, ipsw, virtualization framework, test lab, endpoint security, boa]
+  platforms: [macOS]
+  added: 2026-10-24
+
+- name: Browser Overview Feed for Apple
+  url: https://github.com/cocopuff2u/bofa
+  subcategory: App management
+  description: Hourly feeds of Chrome, Firefox, Edge and Safari versions for macOS with vendor download links, as JSON, YAML and XML.
+  keywords: [chrome, firefox, edge, safari, version feed, patching]
+  platforms: [macOS]
+  cost: open-source
+
+- name: BrowserConfigEditor
+  url: https://github.com/gilburns/BrowserConfigEditor
+  subcategory: Editors
+  description: Mac app to build and edit managed browser policies for Chrome, Edge, Firefox, Safari and Brave, exporting plist, JSON or Intune XML.
+  keywords: [chrome policies, edge, firefox, mobileconfig, plist, managed preferences]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Checkpoint
+  url: https://github.com/JordyThery/Checkpoint
+  subcategory: Inspection
+  description: Shows each serial number in Apple Business and Jamf Pro side by side, with actions such as reassigning the MDM server.
+  keywords: [apple business, abm, serial numbers, prestage, reconciliation]
+  platforms: [macOS, iOS, iPadOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: CoCoLabs by Cody Keats
+  url: https://cocolabs.dev/
+  subcategory: Utilities
+  description: Hub for Cody Keats' open-source Mac admin projects, including the MOFA and BOFA feeds, M.A.C.E. and CaC for Mac.
+  keywords: [mofa, bofa, mace, mscp, smart card]
+
+- name: CodeLobster
+  url: https://codelobster.com/
+  subcategory: Editors
+  description: Cross-platform IDE for PHP, HTML, CSS, JavaScript, TypeScript, Python and Node.js, with a free core and a paid Professional tier.
+  keywords: [ide, php, javascript, code editor]
+  cost: freemium
+
+- name: Coderunner 4
+  url: https://coderunnerapp.com/download
+  subcategory: Editors
+  description: Lightweight, multi-language code editor and IDE for macOS with over 200 syntax modes, for scripts and any kind of text file.
+  keywords: [bash, scripting, ide, python, swift, editor]
+  platforms: [macOS]
+  cost: paid
+
+- name: Composer
+  url: https://www.jamf.com/products/jamf-composer/
+  subcategory: Packaging
+  description: Jamf's packaging app for building, monitoring, rebuilding and signing Mac installer packages through drag and drop.
+  keywords: [pkg, packaging, snapshot, jamf pro, package signing]
+  platforms: [macOS]
+  works_with: [jamf]
+
+- name: Contour
+  url: https://github.com/macadmins/contour
+  subcategory: Profiles & compliance
+  description: CLI that generates, normalizes, validates and compares configuration profiles and DDM declarations against Apple's schema.
+  keywords: [mobileconfig, ddm, pppc, santa, mscp, gitops]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  works_with: [any-mdm]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Dan K. Snelson (GitHub)
+  url: https://github.com/dan-snelson
+  subcategory: Scripts & references
+  description: Dan K. Snelson's GitHub with Setup Your Mac, Mac Health Check, DDM OS Reminder and Jamf Pro and swiftDialog scripts.
+  keywords: [snelson.us, swiftdialog, jamf pro, ddm, self service, scripts]
+
+- name: Dan Snelson Dialog scripts
+  url: https://github.com/dan-snelson/dialog-scripts
+  subcategory: Scripts & references
+  description: Collection of swiftDialog scripts, including Setup Your Mac, Computer Compliance, MDM Migrate and Inventory Update Progress.
+  keywords: [swiftdialog, setup your mac, onboarding, jamf pro]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Dan Snelson Jamf Pro scripts
+  url: https://github.com/dan-snelson/Jamf-Pro-Scripts
+  subcategory: Scripts & references
+  description: Collection of Jamf Pro scripts, including EA Audit, Jamf Pro Health Check, Recon at Reboot, Homebrew and EDR agent installs.
+  keywords: [extension attributes, ea audit, recon, crowdstrike, homebrew, microsoft office]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: DDM Explorer
+  url: https://concepts.jamf.com/en/concepts/ddm-explorer/
+  subcategory: Profiles & compliance
+  description: Mac and iPad app to browse Apple's DDM declarations, build declaration JSON for Jamf Pro blueprints and view device status reports.
+  keywords: [ddm, declarative device management, declarations, blueprints, status channel]
+  platforms: [macOS, iPadOS]
+  works_with: [jamf]
+  added: 2026-10-24
+
+- name: DDM OS Reminder
+  url: https://github.com/dan-snelson/DDM-OS-Reminder
+  subcategory: Software updates
+  description: Shows users swiftDialog reminders as macOS update deadlines enforced through Declarative Device Management get closer.
+  keywords: [ddm, swiftdialog, update deadline, nudge, end-user messaging, launchdaemon]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Desktoppr
+  url: https://github.com/scriptingosx/desktoppr
+  subcategory: User environment
+  description: Sets the desktop picture from the command line.
+  keywords: [wallpaper, desktop picture, launchagent, managed preferences, scripting os x]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Dockutil
+  url: https://github.com/kcrawford/dockutil/
+  subcategory: User environment
+  description: Command-line tool to add, remove and reorder Dock items.
+  keywords: [dock, user environment, login script, plist]
+  platforms: [macOS]
+  cost: open-source
+
+- name: The Eclectic Light Company - Freeware Menu
+  url: https://eclecticlight.co/wp-content/uploads/2021/06/appselectionchart0621.pdf
+  subcategory: Utilities
+  description: PDF chart of Howard Oakley's free macOS utilities by task, from security and logs to keychains and command tools.
+  keywords: [howard oakley, silentknight, ulbow, freeware, logs]
+  platforms: [macOS]
+
+- name: ELEVATE24
+  url: https://www.jigsaw24.com/solutions/automation-and-tooling/elevate24
+  subcategory: Security & identity
+  description: Privileged access management for Macs from Jigsaw24, giving estate-wide visibility to support Cyber Essentials compliance.
+  keywords: [pam, admin rights, privilege elevation, cyber essentials, jigsaw24]
+
+- name: Erase Install
+  url: https://github.com/grahampugh/erase-install
+  subcategory: Software updates
+  description: Script that downloads a macOS installer and optionally erases or upgrades the Mac in one run, with optional swiftDialog prompts.
+  keywords: [startosinstall, reinstall, upgrade, wipe, mist, swiftdialog]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Escrow Buddy
+  url: https://github.com/macadmins/escrow-buddy
+  subcategory: Security & identity
+  description: Generates a new FileVault recovery key so your MDM can escrow it.
+  keywords: [filevault, recovery key, escrow, authorization plugin, fde]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  cost: open-source
+
+- name: Escrow Buddy Enhanced
+  url: https://github.com/MacJediWizard/escrow-buddy-enhanced
+  subcategory: Security & identity
+  description: Fork of Escrow Buddy that rotates FileVault recovery keys in the background on a schedule, with audit logs and compliance reports.
+  keywords: [filevault, recovery key, key rotation, escrow, compliance]
+  platforms: [macOS]
+  works_with: [any-mdm, jamf]
+  cost: open-source
+
+- name: FUpdaters
+  url: https://github.com/GuillaumeRoss/FUpdaters
+  subcategory: App management
+  description: Configuration profile that turns off the built-in auto-updaters of dozens of third-party Mac apps, with a script to trim it per app.
+  keywords: [auto-update, sparkle, managed preferences, mobileconfig, installomator, patching]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  added: 2026-10-24
+
+- name: getmacosipsws.py
+  url: https://github.com/munki/macadmin-scripts
+  subcategory: Software updates
+  description: Python script that downloads the macOS IPSW restore files currently advertised in Apple's software update feed.
+  keywords: [ipsw, restore, apple silicon, munki]
+  platforms: [macOS]
+
+- name: Giphy Capture
+  url: https://apps.apple.com/us/app/giphy-capture-the-gif-maker/id668208984?mt=12
+  subcategory: Productivity
+  description: Records part of the screen and turns it into a looping GIF, with trimming, frame-rate control and captions.
+  keywords: [gif, screen recording, screencast, documentation, mac app store]
+  platforms: [macOS]
+  cost: free
+
+- name: Google Keep
+  url: https://workspace.google.com/products/keep/
+  subcategory: Productivity
+  description: Google's note-taking app for notes, checklists, photos, drawings and audio, with reminders, labels and sync across devices.
+  keywords: [notes, checklists, reminders, google workspace, note taking]
+
+- name: Graham Pugh multitenant Jamf Pro tools
+  url: https://github.com/grahampugh/multitenant-jamf-tools
+  subcategory: Jamf
+  description: Bash scripts that run Jamf Pro API actions on one, several or all servers in a list, copy items between them and seed new instances.
+  keywords: [mjt, jamf pro api, multi-tenant, msp, migration, jocads]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Hazmat
+  url: https://github.com/dredozubov/hazmat
+  subcategory: Security & identity
+  description: CLI that runs AI coding agents as a separate user inside a seatbelt sandbox with pf firewall rules and pre-session snapshots for rollback.
+  keywords: [claude code, codex, sandbox, ai agents, pf firewall, seatbelt]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Hello-IT
+  url: https://github.com/ygini/Hello-IT
+  subcategory: User environment
+  description: Customizable menu bar item for user self-service and status.
+  keywords: [self-service, menu bar, helpdesk, support, end user]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Hypervisaur
+  url: https://github.com/Zesty0wl/hypervisaur
+  subcategory: Virtualization
+  description: VirtualBuddy fork that runs macOS, Linux and Windows 11 VMs on Apple silicon, adding a guest agent, CLI and MCP server.
+  keywords: [virtualbuddy, vm, windows 11, qemu, mcp, virtualization framework]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-10-24
+
+- name: IBM Migration Tool
+  url: https://github.com/IBM/mac-ibm-migration-tool
+  subcategory: Onboarding
+  description: IBM Data Shift app that moves user files, apps and preferences from an old Mac to a new one over a peer-to-peer Wi-Fi or Thunderbolt link.
+  keywords: [data shift, data migration, device refresh, user data, jamf pro]
+  platforms: [macOS]
+  cost: open-source
+
+- name: iMazing Profile Editor
+  url: https://imazing.com/profile-editor
+  subcategory: Profiles & compliance
+  description: Create and edit configuration profiles with a full GUI.
+  keywords: [mobileconfig, configuration profiles, pppc, plist, signing, mdm]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  cost: free
+
+- name: Installomator
+  url: https://github.com/Installomator/Installomator
+  subcategory: App management
+  description: Shell script with thousands of labels that downloads, verifies and installs current versions of common Mac apps from vendor sources.
+  keywords: [patching, app deployment, labels, pkg, dmg]
+  platforms: [macOS]
+  works_with: [jamf, iru, mosyle, addigy, filewave]
+  cost: open-source
+
+- name: Installomator Labels
+  url: https://bartreardon.github.io/installomator-web/
+  subcategory: App management
+  description: Searchable directory of every Installomator label, showing what it installs, how it downloads and the label's source.
+  keywords: [installomator, labels, fragments, app catalog, team id]
+  platforms: [macOS]
+  cost: free
+  added: 2026-10-24
+
+- name: Intune Deployer
+  url: https://github.com/JordyThery/intune-deployer
+  subcategory: Intune
+  description: Applies macOS settings, profiles, compliance policies and scripts from folders or GitHub to Intune, after a dry-run plan.
+  keywords: [microsoft graph, settings catalog, baseline, entra, mobileconfig]
+  platforms: [macOS]
+  works_with: [intune]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Intune Onboard
+  url: https://github.com/JordyThery/IntuneOnboard
+  subcategory: Intune
+  description: 'Mac enrollment experience for Intune: installs apps during Setup Assistant, then sets the Dock, wallpaper and defaults at login.'
+  keywords: [ade, setup assistant, onboarding, provisioning, standard user]
+  platforms: [macOS]
+  works_with: [intune]
+  cost: open-source
+
+- name: Intuneomator
+  url: https://github.com/gilburns/Intuneomator
+  subcategory: Intune
+  description: Swift app that automatically packages, uploads and assigns Installomator-labelled Mac apps in Microsoft Intune on a schedule.
+  keywords: [installomator, graph api, entra id, app deployment, patching, lob]
+  platforms: [macOS]
+  works_with: [intune]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Iru / Kandji support repository
+  url: https://github.com/kandji-inc/support
+  subcategory: Iru / Kandji
+  description: Iru support engineers' scripts, configuration profiles, Auto App uninstallers, API tools and Okta Workflows for Iru (Kandji) customers.
+  keywords: [kandji, scripts, api, auto apps, okta, mobileconfig]
+  works_with: [iru]
+  cost: open-source
+
+- name: Jamf Automation & Webhook Assistant (JAWA)
+  url: https://github.com/jamf/JAWA
+  subcategory: Jamf
+  description: Self-hosted web server that receives Jamf Pro webhooks and runs scheduled scripts and reports for automation workflows.
+  keywords: [webhooks, automation, cron, jamf pro api, scheduling]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Jamf CLI
+  url: https://github.com/Jamf-Concepts/jamf-cli
+  subcategory: Automation
+  description: 'Command-line tool for Jamf Pro, Jamf Protect, Jamf School and the Jamf Platform API: device actions, blueprints, reports and backups.'
+  keywords: [jamf-cli, jamf platform api, classic api, homebrew, msp, compliance benchmarks]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Jamf Compliance Editor
+  url: https://github.com/Jamf-Concepts/jamf-compliance-editor
+  subcategory: Profiles & compliance
+  description: Free mSCP-based Jamf app that builds CIS, NIST and STIG baselines as profiles, scripts and extension attributes.
+  keywords: [mscp, cis, nist, stig, compliance, baselines]
+  platforms: [macOS, iOS, iPadOS, visionOS]
+  works_with: [jamf]
+  cost: free
+
+- name: Jamf Concepts
+  url: https://concepts.jamf.com/
+  subcategory: Jamf
+  description: Showcase of solutions, apps and utilities built by Jamf employees, outside Jamf's supported product line.
+  keywords: [jamf pro, setup manager, compliance editor, utilities, open source]
+  works_with: [jamf]
+
+- name: Jamf Connect Monitor
+  url: https://github.com/MacJediWizard/Jamf-Connect-Monitor
+  subcategory: Jamf
+  description: Monitors Jamf Connect privilege elevations, flags unauthorized admin accounts, alerts via Slack or Teams and can remove admin rights.
+  keywords: [privilege elevation, admin rights, jamf connect, security, remediation]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Jamf Connect repository
+  url: https://github.com/jamf/jamfconnect
+  subcategory: Jamf
+  description: Jamf's collection of Jamf Connect example configuration profiles, extension attributes, scripts and helper tools.
+  keywords: [jamf connect, login window, extension attributes, idp, mobileconfig]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Jamf Custom Profile Schemas
+  url: https://github.com/Jamf-Custom-Profile-Schemas/
+  subcategory: Jamf
+  description: GitHub organisation collecting JSON schemas for Jamf Pro's Application & Custom Settings payload, including a ProfileCreator mirror.
+  keywords: [json schema, custom settings, profilecreator, manifests, preferences]
+  works_with: [jamf]
+
+- name: Jamf Deployer
+  url: https://github.com/JordyThery/jamf-deployer
+  subcategory: Jamf
+  description: Deploys Jamf tenants to a best-practice baseline with OpenTofu, captures existing setups and checks them for drift.
+  keywords: [opentofu, terraform, msp, baseline, drift, jamf protect]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Jamf Device Checker
+  url: https://concepts.jamf.com/en/concepts/jamf-device-checker/
+  subcategory: Inspection
+  description: iPhone and iPad app giving end users status tiles for OS version, required apps, battery, storage and connectivity, set up via Jamf Pro.
+  keywords: [managed app config, self-service, device health, frontline, help desk]
+  platforms: [iOS, iPadOS]
+  works_with: [jamf]
+  added: 2026-10-24
+
+- name: Jamf Extender
+  url: https://github.com/Jamf-Concepts/Jamf-Extender
+  subcategory: Jamf
+  description: Browser extension that shows smart group membership, profile deployment status and policy scope inline in the Jamf Pro web interface.
+  keywords: [browser extension, smart groups, policy scope, chrome, safari, mass update]
+  works_with: [jamf]
+
+- name: Jamf Framework Redeploy
+  url: https://github.com/red5coder/Jamf-Framework-Redeploy
+  subcategory: Jamf
+  description: App that calls the Jamf Pro API to push a fresh QuickAdd.pkg and reinstall the Jamf management framework on an enrolled Mac.
+  keywords: [jamf binary, quickadd, self-healing, installenterpriseapplication, jamf pro api]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Jamf Go SDKs
+  url: https://concepts.jamf.com/en/concepts/go-sdks/
+  subcategory: Automation
+  description: Go client libraries for the Jamf Platform and Jamf Protect APIs, with OAuth client-credentials auth and typed API errors.
+  keywords: [golang, sdk, jamf platform api, jamf protect, oauth, openapi]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Jamf LAPS UI
+  url: https://github.com/PezzaD84/Jamf_LAPS_UI
+  subcategory: Security & identity
+  description: Mac app that shows a device's Jamf LAPS account and password without needing to log in to the full Jamf Pro console.
+  keywords: [laps, local admin, password, jamf pro api, helpdesk]
+  platforms: [macOS]
+  works_with: [jamf]
+  added: 2026-10-24
+
+- name: Jamf Mapper
+  url: https://github.com/ebiinsights/Jamf-Mapper
+  subcategory: Jamf
+  description: Read-only app that crawls Jamf Pro, maps how policies, groups, scripts and profiles depend on each other and flags orphaned objects.
+  keywords: [dependencies, cleanup, audit, smart groups, jamf pro api]
+  platforms: [macOS]
+  works_with: [jamf]
+
+- name: Jamf MCP Hub
+  url: https://github.com/Jamf-Concepts/mcp-hub
+  subcategory: Automation
+  description: MCP server that lets AI assistants such as Claude query and manage Jamf Pro, Jamf Protect and Jamf Security Cloud.
+  keywords: [mcp, model context protocol, llm, claude, jamf protect]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Jamf Migrator
+  url: https://github.com/JordyThery/JamfMigrator
+  subcategory: Jamf
+  description: Copies whole Jamf tenants or single objects between Jamf Pro servers and files, with a dry-run preview. Based on Jamf Replicator.
+  keywords: [replicator, migration, tenant, jamf platform api, jamf pro api]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Jamf Mobile Assist
+  url: https://concepts.jamf.com/en/concepts/jamf-mobile-assist/
+  subcategory: Jamf
+  description: iPhone and iPad app for frontline managers to assign devices, clear passcodes and wipe devices through Jamf Pro without console access.
+  keywords: [frontline, clear passcode, erase, device assignment, retail, delegated admin]
+  platforms: [iOS, iPadOS]
+  works_with: [jamf]
+  added: 2026-10-24
+
+- name: Jamf Open Source
+  url: https://github.com/jamf
+  subcategory: Jamf
+  description: Jamf's GitHub organisation, home to PPPC Utility, Aftermath, Setup Manager, DEPNotify-Starter and other public projects.
+  keywords: [pppc utility, aftermath, setup manager, depnotify, open source]
+  works_with: [jamf]
+
+- name: Jamf Platform Terraform Reference
+  url: https://github.com/Jamf-Concepts/terraform-jamf-reference
+  subcategory: Jamf
+  description: Terraform configurations that build Jamf Pro and Jamf Security Cloud setups from optional modules, including CIS and STIG baselines.
+  keywords: [terraform, infrastructure as code, jamf security cloud, cis, opentofu]
+  works_with: [jamf]
+
+- name: Jamf PPPC Utility
+  url: https://github.com/jamf/PPPC-Utility
+  subcategory: Profiles & compliance
+  description: Builds Privacy Preferences Policy Control (TCC) profiles.
+  keywords: [pppc, tcc, privacy, full disk access, configuration profiles]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Jamf Pro Policy Cheat Sheet
+  url: https://oit.ncsu.edu/help-support/apple/jamf-pro/jamf-pro-policy-cheat-sheet/#time
+  subcategory: Jamf
+  description: NC State's outlines for setting up Jamf Pro policies and profiles for tasks like encryption, firewall, patching, printers and login items.
+  keywords: [policies, configuration profiles, filevault, rosetta, xcreds, nc state]
+  platforms: [macOS]
+  works_with: [jamf]
+
+- name: Jamf Protect repository
+  url: https://github.com/jamf/jamfprotect
+  subcategory: Jamf
+  description: 'Jamf''s open-source Jamf Protect resources: custom analytics, removable storage controls, unified log filters, API scripts and EAs.'
+  keywords: [jamf protect, analytics, unified logs, device controls, siem, edr]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Jamf Recipe Maker
+  url: https://grahamrpugh.com/2022/05/03/jamf-recipe-maker.html
+  subcategory: Packaging
+  description: AutoPkg processor that reads a .jss recipe and writes an equivalent .jamf recipe, easing the move from JSSImporter to JamfUploader.
+  keywords: [autopkg, jamfuploader, jssimporter, recipes, patching]
+  works_with: [jamf]
+
+- name: Jamf Replicator
+  url: https://github.com/jamf/Replicator
+  subcategory: Jamf
+  description: Jamf's macOS app that exports, uploads, updates or deletes objects to copy configuration between Jamf Pro servers.
+  keywords: [migration, jamf migrator, tenant, export, jamf pro api]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Jamf Reports Community
+  url: https://github.com/tonyyo11/jamf-reports-community
+  subcategory: Jamf
+  description: Mac app that turns Jamf Pro inventory from CSV exports and jamf-cli into Excel workbooks, HTML reports and trend dashboards.
+  keywords: [jamf-cli, excel, inventory, compliance, mscp, msp]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Jamf Return to Service
+  url: https://concepts.jamf.com/en/concepts/jamf-return-to-service/
+  subcategory: Onboarding
+  description: App that wipes shared or frontline devices and re-provisions them over Wi-Fi via Jamf Pro and Return to Service, skipping Setup Assistant.
+  keywords: [rts, shared ipad, erase, frontline, re-provisioning, ade]
+  platforms: [iOS, iPadOS, tvOS, visionOS]
+  works_with: [jamf]
+  added: 2026-10-24
+
+- name: Jamf Setup Checklist
+  url: https://github.com/Jamf-Concepts/setup-checklist
+  subcategory: Onboarding
+  description: First-login app that guides users through remaining setup steps such as privacy permissions and app sign-ins on Jamf-managed Macs.
+  keywords: [onboarding, first login, enrollment, jamf pro, jamf school, swiftui]
+  platforms: [macOS]
+  works_with: [jamf]
+
+- name: Jamf Setup Manager
+  url: https://github.com/jamf/Setup-Manager
+  subcategory: Onboarding
+  description: Enrollment-time onboarding app for Jamf Pro and Jamf School.
+  keywords: [ade, setup assistant, enrollment, depnotify, provisioning]
+  platforms: [macOS]
+  works_with: [jamf]
+
+- name: JamfCheck
+  url: https://github.com/txhaflaire/JamfCheck
+  subcategory: Jamf
+  description: App that checks the state of Jamf Pro, Jamf Connect and Jamf Protect on a Mac, with log export, an EICAR test and webhook tests.
+  keywords: [troubleshooting, jamf connect, jamf protect, logs, eicar]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: JamfDash - Michiel Devliegere
+  url: https://github.com/DevliegereM/JamfDash
+  subcategory: Jamf
+  description: Dashboard app for Jamf Pro, Jamf Protect and Jamf School built on jamf-cli, for fleet browsing, security posture, reports and bulk actions.
+  keywords: [jamf-cli, dashboard, reporting, jamf protect, jamf school]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: jamformer
+  url: https://github.com/Jamf-Concepts/jamformer
+  subcategory: Automation
+  description: Exports an existing Jamf Pro, Protect, Platform or Security Cloud instance as a Terraform project with import blocks and generated HCL.
+  keywords: [terraform, hcl, iac, import blocks, opentofu, gitleaks]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Jordy Thery's Mac admin apps
+  url: https://jordythery.be/apps.html
+  subcategory: Scripts & references
+  description: Jordy Thery's collection of Mac admin apps for Jamf Pro, Intune and Apple Business, with a page for each app.
+  keywords: [jamf, intune, blueprints, apple business, swift apps]
+  added: 2026-10-24
+
+- name: Just Upgrade and Migrate to Intune
+  url: https://github.com/pathaksomesh06/JUMP-IN
+  subcategory: Intune
+  description: App that moves Macs from another MDM, or another Intune tenant, into Intune without a wipe, including FileVault key rotation.
+  keywords: [mdm migration, tenant migration, company portal, filevault, jamf to intune]
+  platforms: [macOS]
+  works_with: [intune]
+  cost: open-source
+  archived: true
+
+- name: Low Profile
+  url: https://github.com/ninxsoft/LowProfile
+  subcategory: Inspection
+  description: App that inspects configuration profiles, showing each payload's keys and availability and flagging deprecated or duplicated keys.
+  keywords: [mobileconfig, configuration profiles, payloads, inspection, mdm]
+  platforms: [macOS]
+  cost: open-source
+
+- name: M.A.C.E. macOS Advanced Compliance Editor
+  url: https://github.com/mace-app/mace
+  subcategory: Profiles & compliance
+  description: macOS app that builds mSCP compliance baselines and exports scripts, profiles, DDM declarations and audit files, with MDM upload.
+  keywords: [nist, cis benchmark, disa stig, security baseline, mobileconfig]
+  platforms: [macOS, iOS, iPadOS, visionOS]
+  works_with: [jamf, intune, workspace-one, iru, fleet, addigy]
+  cost: free
+
+- name: Mac Health Check
+  url: https://github.com/dan-snelson/Mac-Health-Check
+  subcategory: Inspection
+  description: Runs health and compliance checks on a Mac and shows the results to users via MDM Self Service with swiftDialog.
+  keywords: [compliance, swiftdialog, self service, filevault, triage, help desk]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Mac Performance Monitor
+  url: https://github.com/Zesty0wl/mac-performance-monitor
+  subcategory: Inspection
+  description: Menu bar recorder that logs CPU, memory, GPU, network, disk and battery use per process, with alerts, a CLI and an MCP server.
+  keywords: [performance, memory pressure, battery drain, diagnostics, mcp, mpm]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-10-24
+
+- name: MacAdmins Open Source (macadmins.io)
+  url: https://github.com/macadmins/macadmins.io
+  subcategory: Utilities
+  description: Source of the macadmins.io site for Mac Admins Open Source, which provides code signing certificates to community projects.
+  keywords: [code signing, open source, nudge, sofa, community]
+
+- name: MacAdmins Tools
+  url: https://github.com/macadmins
+  subcategory: Utilities
+  description: Mac Admins Open Source GitHub organisation hosting community tools such as Nudge, SOFA, Escrow Buddy, UMAD and InstallApplications.
+  keywords: [nudge, sofa, escrow buddy, umad, installapplications, code signing]
+
+- name: MacDNA
+  url: https://github.com/jhbush/Arek/tree/master/Development/MacDNA%20Menulet
+  subcategory: User environment
+  description: 'Older menu bar app showing Mac health: disk and battery status, CrashPlan backups, Jamf (Casper) check-ins, updates and AD binding.'
+  keywords: [menu bar, menulet, system info, arek]
+
+- name: macOS Icons
+  url: https://macosicons.com
+  subcategory: Utilities
+  description: Searchable library of user-submitted macOS app icons in .icns and PNG, with an icon editor, templates and an API.
+  keywords: [icns, app icons, self service icons, branding, png]
+  platforms: [macOS]
+  cost: free
+
+- name: macOS Intune Support Assistant
+  url: https://github.com/pathaksomesh06/MISA
+  subcategory: Intune
+  description: End-user support app for Intune-managed Macs covering system info, storage, updates, Platform SSO checks, security and self-service.
+  keywords: [helpdesk, self-service, psso, platform sso, troubleshooting]
+  platforms: [macOS]
+  works_with: [intune]
+  cost: open-source
+
+- name: macOS Security Compliance Project
+  url: https://github.com/usnistgov/macos_security
+  subcategory: Security & identity
+  description: NIST-led security baselines, scripts and profiles for macOS.
+  keywords: [mscp, cis, stig, 800-53, compliance, ddm]
+  platforms: [macOS, iOS, iPadOS, visionOS]
+  cost: open-source
+
+- name: macOSLAPS
+  url: https://github.com/joshua-d-miller/macOSLAPS
+  subcategory: Security & identity
+  description: Swift binary that changes a local administrator account's password to a randomly generated one, mirroring Windows LAPS.
+  keywords: [laps, local admin, password rotation, active directory, open directory]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-10-24
+
+- name: MacSaver Builder
+  url: https://github.com/GetInfo-ACN/MacSaverBuilder
+  subcategory: User environment
+  description: App that turns your own videos and thumbnails into custom .saver screen savers for deployment to managed Macs.
+  keywords: [screensaver, saver, branding, lock screen, jamf]
+  platforms: [macOS]
+  cost: open-source
+
+- name: MDM Migrator
+  url: https://github.com/pathaksomesh06/MDM-Migrator
+  subcategory: Intune
+  description: App that moved Macs from Jamf to Intune by removing Jamf profiles and framework, enrolling in Intune and rotating FileVault keys.
+  keywords: [mdm migration, jamf to intune, filevault, company portal, jump-in]
+  platforms: [macOS]
+  works_with: [intune]
+  cost: open-source
+  archived: true
+
+- name: MDMInspector
+  url: https://github.com/superjaegermaster/MDMInspector
+  subcategory: Inspection
+  description: Native Mac app that merges MDM agent, system and unified logs from Jamf, Intune, Workspace ONE and others into one local timeline.
+  keywords: [troubleshooting, logs, unified log, psso, kandji, defender]
+  platforms: [macOS]
+  works_with: [jamf, intune, workspace-one]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Michael Epping presentations
+  url: https://github.com/mepples21/presentations
+  subcategory: Intune
+  description: Michael Epping's conference slides on Entra ID, Platform SSO, passkeys and Conditional Access for Macs, from JNUC, PSU and others.
+  keywords: [entra id, psso, platform sso, conditional access, passkeys, jnuc]
+
+- name: Microsoft 365 Reset
+  url: https://github.com/dan-snelson/Microsoft-365-Reset
+  subcategory: Utilities
+  description: Script that repairs, resets or removes Microsoft 365 apps, OneDrive, Teams, licensing and credentials on a Mac, interactively or silently.
+  keywords: [office, outlook, onedrive, teams, licensing, troubleshooting]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Microsoft Intune Shell script examples
+  url: https://github.com/microsoft/shell-intune-samples
+  subcategory: Intune
+  description: Microsoft's sample shell scripts for Intune admins managing macOS and Linux, covering app installs and device configuration.
+  keywords: [shell scripts, app deployment, line-of-business, custom attributes]
+  platforms: [macOS]
+  works_with: [intune]
+  cost: open-source
+
+- name: Microsoft Office Feed for Apple
+  url: https://github.com/cocopuff2u/MOFA
+  subcategory: App management
+  description: Auto-updated feeds of Microsoft app versions and download links for macOS and iOS, plus scripts and repair tools for Office and Teams.
+  keywords: [microsoft office, teams, patching, mau, download links, intune company portal]
+  platforms: [macOS, iOS]
+  cost: open-source
+
+- name: Microsoft Tools
+  url: https://appledevicepolicy.tools/microsoft-apps
+  subcategory: App management
+  description: Tracks the current versions of macOS apps used in Intune fleets, such as Defender, Company Portal, Edge, Teams, Office, Chrome and Zoom.
+  keywords: [microsoft intune, version tracking, defender, company portal, patching]
+  platforms: [macOS]
+  works_with: [intune]
+
+- name: MIST
+  url: https://github.com/ninxsoft/Mist
+  subcategory: Software updates
+  description: Mac app that lists and downloads macOS installers and IPSW firmware, and builds .app, .dmg, .iso or .pkg installers.
+  keywords: [ipsw, macos installer, firmware, dfu, restore, mist-cli]
+  platforms: [macOS]
+  cost: open-source
+
+- name: MOFA Microsoft Overview Feed
+  url: https://mofa.cocolabs.dev
+  subcategory: App management
+  description: Lists current versions and release dates of Microsoft apps for Apple devices, standalone and App Store, including Office and Teams.
+  keywords: [microsoft office, teams, outlook, version tracking, patching]
+  platforms: [macOS, iOS]
+  cost: open-source
+
+- name: Monocle
+  url: https://github.com/dan-snelson/Monocle
+  subcategory: Utilities
+  description: Agent Skill for Claude Code and Codex that reviews scripts, small repos and support bundles, with four audience-specific reports.
+  keywords: [ai, code review, claude code, codex, script audit, security review]
+  cost: open-source
+  added: 2026-10-24
+
+- name: moss
+  url: https://github.com/WardsParadox/moss
+  subcategory: Profiles & compliance
+  description: Command-line Python tool that builds .plist and .mobileconfig files for configuring the Hello IT menu bar app.
+  keywords: [hello it, mobileconfig, configuration profile, plist, menu bar]
+  platforms: [macOS]
+  cost: open-source
+  archived: true
+
+- name: Munki
+  url: https://github.com/munki/munki
+  subcategory: App management
+  description: Open-source software deployment and self-service catalog for macOS.
+  keywords: [managed software center, app deployment, self service, pkginfo, autopkg, software repo]
+  platforms: [macOS]
+  cost: open-source
+
+- name: munkipkg
+  url: https://github.com/munki/munki-pkg
+  subcategory: Packaging
+  description: Command-line tool that builds macOS installer packages from a project folder, with signing, notarization and git-friendly Bom tracking.
+  keywords: [pkgbuild, productbuild, packaging, notarization, installer package, git]
+  platforms: [macOS]
+  cost: open-source
+
+- name: MUT
+  url: https://apps.apple.com/us/app/the-mut/id1133234759
+  subcategory: Jamf
+  description: 'Mass Update Tool: Mac app that applies bulk changes from a CSV to Jamf Pro records, static groups and PreStage scopes.'
+  keywords: [mass update, csv, bulk edit, asset tag, prestage, static group]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: free
+
+- name: Neil Martin Terraform Starter
+  url: https://github.com/neilmartin83/terraform-jamfpro-starter
+  subcategory: Jamf
+  description: Terraform starter configuration for managing a Jamf Pro instance as code, with example settings and dev-to-prod promotion workflows.
+  keywords: [terraform, infrastructure as code, hcp terraform, blueprints, cis benchmark, platform sso]
+  platforms: [macOS, iOS, iPadOS]
+  works_with: [jamf]
+  cost: open-source
+  archived: true
+
+- name: Nexus Shell
+  url: https://nexusshell.app/
+  subcategory: Utilities
+  description: Native SSH client combining multi-tab terminal, SFTP, SSH key management, Docker management and live server monitoring.
+  keywords: [ssh, sftp, terminal, docker, server monitoring, mcp]
+  platforms: [macOS]
+  cost: freemium
+
+- name: NoMAD
+  url: https://nomad.menu/products/#nomad
+  subcategory: Security & identity
+  description: Menu bar app that gives local-account Macs Active Directory Kerberos tickets, password sync and SSO without binding.
+  keywords: [active directory, kerberos, unbind, password sync, nomad login, jamf connect]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Nova
+  url: https://nova.app/
+  subcategory: Editors
+  description: Native Mac code editor from Panic with Git, debugging, remote file transfer, build tasks, language servers and JavaScript extensions.
+  keywords: [code editor, ide, panic, git, lsp, scripting]
+  platforms: [macOS]
+  cost: paid
+
+- name: Nudge
+  url: https://github.com/macadmins/nudge
+  subcategory: Software updates
+  description: Prompts users to install macOS updates before a deadline you set.
+  keywords: [software update, deferral, sofa, compliance, enforcement, patching]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Object Info
+  url: https://github.com/BIG-RAT/Object-Info
+  subcategory: Jamf
+  description: Mac app that maps how Jamf Pro objects relate, such as which policies use a package or which groups and profiles reference an item.
+  keywords: [jamf pro, dependencies, policies, packages, extension attributes, cleanup]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Octory
+  url: https://octory.io/
+  subcategory: Onboarding
+  description: Onboarding and in-life app for managed Macs that guides users through setup, shows app install progress and device health tiles.
+  keywords: [onboarding, enrollment, dep notify, setup assistant, user experience, jamf pro]
+  platforms: [macOS]
+  cost: freemium
+
+- name: Outset - Login/boot script framework
+  url: https://github.com/macadmins/outset
+  subcategory: Automation
+  description: Runs scripts and packages at boot and at login.
+  keywords: [login script, boot script, login-once, launchd, automation]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Packages - WhiteBox
+  url: http://s.sudre.free.fr/Software/Packages/about.html
+  subcategory: Packaging
+  description: Mac app for building installer packages and distributions, with payload, presentation, requirements editors and a packagesbuild CLI.
+  keywords: [pkg, installer package, distribution, packagesbuild, packaging, signing]
+  platforms: [macOS]
+  tags: [http-only]
+
+- name: Pareto Security
+  url: https://paretosecurity.com/
+  subcategory: Security & identity
+  description: Read-only app that checks laptop security settings like disk encryption, firewall and updates, with an optional cloud dashboard.
+  keywords: [compliance, filevault, firewall, soc 2, iso 27001, byod]
+  platforms: [macOS]
+  cost: freemium
+
+- name: Particulars
+  url: https://particulars.app
+  subcategory: User environment
+  description: Shows Mac system details such as model, serial, OS version, uptime and network on the desktop, menu bar, Shortcuts or command line.
+  keywords: [system information, serial number, desktop info, bginfo, helpdesk, shortcuts]
+  platforms: [macOS]
+
+- name: Patchomator
+  url: https://github.com/Mac-Nerd/patchomator
+  subcategory: App management
+  description: Scans a Mac for installed apps, matches them to Installomator labels and updates the outdated ones.
+  keywords: [installomator, patching, app updates, labels, patch management]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Payload Free Package Creator
+  url: https://github.com/rtrouton/Payload-Free-Package-Creator
+  subcategory: Packaging
+  description: Automator app that turns a chosen script into a payload-free installer package using pkgbuild and productbuild.
+  keywords: [payload-free, pkg, postinstall, pkgbuild, packaging, automator]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Payload Free Printer Package Creator
+  url: https://github.com/rtrouton/payload-free_package_printer_generator
+  subcategory: User environment
+  description: Script that generates a payload-free package which adds a preconfigured printer with lpadmin, with optional package signing.
+  keywords: [printer deployment, lpadmin, ppd, payload-free, pkg, cups]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Pique - Quick Look extension
+  url: https://github.com/macadmins/pique
+  subcategory: Inspection
+  description: Quick Look extension that shows syntax-highlighted previews of JSON, YAML, plist, mobileconfig, shell, Python and Terraform files.
+  keywords: [quick look, finder preview, mobileconfig, plist, gitops, syntax highlighting]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Plist Buddy Finder
+  url: https://github.com/8ta4/plist
+  subcategory: Inspection
+  description: Watches macOS plist files for changes and prints the matching PlistBuddy commands to paste into a setup script.
+  keywords: [plistbuddy, preferences, defaults, dotfiles, homebrew, setup script]
+  platforms: [macOS]
+
+- name: Postman
+  url: https://www.postman.com/downloads/
+  subcategory: Productivity
+  description: API platform and desktop client for sending, testing and documenting HTTP requests, with collections, mock servers and a CLI.
+  keywords: [api, rest, jamf pro api, graph api, http requests, collections]
+  platforms: [macOS]
+  cost: freemium
+
+- name: PrefWatch
+  url: https://github.com/Gill0o/PrefWatch
+  subcategory: Inspection
+  description: Zsh script that watches macOS preference changes live and outputs the defaults and PlistBuddy commands that reproduce them.
+  keywords: [defaults, plistbuddy, preferences, plist, byhost, configuration profile]
+  platforms: [macOS]
+  cost: open-source
+
+- name: PrinterSetup
+  url: https://github.com/mikaellofgren/PrinterSetup
+  subcategory: User environment
+  description: Mac app that generates lpadmin commands from a PPD and exports them as a payload-free package, Munki pkginfo or bash script.
+  keywords: [printer deployment, lpadmin, ppd, airprint, bonjour, payload-free]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Profile2Blueprint
+  url: https://github.com/JordyThery/Profile2Blueprint
+  subcategory: Jamf
+  description: Mac app that migrates Jamf Pro classic configuration profiles to Jamf Blueprints, verifying them before you deploy.
+  keywords: [blueprints, ddm, configuration profiles, migration, jamf platform api]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: ProfileCreator
+  url: https://github.com/ProfileCreator/ProfileCreator
+  subcategory: Profiles & compliance
+  description: Mac app for building standard or custom configuration profiles (.mobileconfig) from a payload library.
+  keywords: [mobileconfig, configuration profile, payloads, managed preferences, plist]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Prune
+  url: https://github.com/BIG-RAT/Prune
+  subcategory: Jamf
+  description: Mac app that scans a Jamf Pro server for unused packages, scripts, policies and groups and lets you review and delete them.
+  keywords: [jamf pro, cleanup, unused objects, packages, policies, housekeeping]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: PSEUDO - Optimize PSSO registration
+  url: https://github.com/Macjutsu/pseudo
+  subcategory: Onboarding
+  description: Script that enforces Platform SSO registration and Touch ID setup during Mac onboarding, using swiftDialog prompts.
+  keywords: [psso, platform sso, touch id, swiftdialog, entra id, onboarding]
+  platforms: [macOS]
+  cost: open-source
+
+- name: PSSO Utility
+  url: https://concepts.jamf.com/en/concepts/psso-utility/
+  subcategory: Security & identity
+  description: App and menu bar item that shows Platform SSO status, IdP details, raw app-sso JSON and recent SSO log entries for troubleshooting.
+  keywords: [psso, platform sso, app-sso, sso logs, troubleshooting]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  added: 2026-10-24
+
+- name: Pure Bash Bible
+  url: https://github.com/dylanaraps/pure-bash-bible
+  subcategory: Scripts & references
+  description: Reference of pure bash techniques for common tasks, replacing external tools like sed, awk, head and tail in scripts.
+  keywords: [shell scripting, string manipulation, reference, snippets]
+  archived: true
+
+- name: Rectangle
+  url: https://rectangleapp.com/
+  subcategory: Productivity
+  description: Window manager that moves and resizes windows with keyboard shortcuts or by snapping to screen edges; a paid Pro version adds more.
+  keywords: [window management, snapping, keyboard shortcuts, spectacle, tiling]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Rich Trouton - GitHub
+  url: https://github.com/rtrouton
+  subcategory: Scripts & references
+  description: Rich Trouton's GitHub repos of macOS admin scripts, configuration profiles and tools for building macOS VM installers and Recovery.
+  keywords: [der flounder, rtrouton_scripts, configuration profiles, shell scripts, vm]
+  platforms: [macOS]
+
+- name: Rob Schroeder Jamf Pro Extension Attributes
+  url: https://github.com/robjschroeder/Jamf-Extension-Attributes
+  subcategory: Scripts & references
+  description: Collection of Jamf Pro extension attribute scripts covering battery health, firewall status, Office versions and update compliance.
+  keywords: [extension attributes, ea, inventory, jamf pro, reporting]
+  platforms: [macOS]
+  works_with: [jamf]
+
+- name: Root3 Support App
+  url: https://github.com/root3nl/SupportApp
+  subcategory: User environment
+  description: Brandable menu bar app that shows users and help desks basic Mac diagnostics and links to support channels and company resources.
+  keywords: [self service, helpdesk, menu bar, branding, diagnostics, root3]
+  platforms: [macOS]
+  cost: open-source
+
+- name: S.U.P.E.R.M.A.N.
+  url: https://github.com/Macjutsu/super
+  subcategory: Software updates
+  description: Script that manages and enforces macOS updates and upgrades.
+  keywords: [superman, software update, deferral, deadline, restart, jamf pro]
+  platforms: [macOS]
+  cost: open-source
+
+- name: SAP Icons
+  url: https://github.com/SAP/macOS-icon-generator
+  subcategory: Utilities
+  description: Mac app that turns an image into standard PNG app icon sets, including install and uninstall variants, for internal app stores.
+  keywords: [self service icons, png, icon generator, jamf pro, munki, branding]
+  platforms: [macOS]
+  cost: open-source
+
+- name: SAP Privileges
+  url: https://github.com/SAP/macOS-enterprise-privileges
+  subcategory: Security & identity
+  description: Lets standard users request temporary admin rights.
+  keywords: [admin rights, least privilege, elevation, standard user, privileges]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Save up to 25% PKG File Size
+  url: https://scriptingosx.com/2021/10/save-up-to-25-pkg-file-size-with-this-weird-monterey-trick/
+  subcategory: Packaging
+  description: Armin Briegel explains pkgbuild and productbuild compression options that shrink installer packages, and their trade-offs.
+  keywords: [pkgbuild, productbuild, compression, apple archive, scripting os x, packaging]
+  platforms: [macOS]
+
+- name: School Assembly - Jamf School Mac onboarding
+  url: https://github.com/cantscript/SchoolAssembly
+  subcategory: Onboarding
+  description: Onboarding script for Jamf School Macs, configured by profile, that installs apps with Installomator and shows progress in swiftDialog.
+  keywords: [jamf school, onboarding, installomator, swiftdialog, app deployment, education]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Scott Kendall Jamf Pro extension attributes
+  url: https://github.com/ScottEKendall/JAMF-Pro-EAs
+  subcategory: Scripts & references
+  description: Extension attribute scripts for Jamf Pro covering FileVault, Gatekeeper, CIS, LAPS, Jamf Connect, Intune, CrowdStrike and Zscaler.
+  keywords: [extension attributes, ea, inventory, compliance, cis benchmark]
+  platforms: [macOS]
+  works_with: [jamf]
+  added: 2026-10-24
+
+- name: Scott Kendall Jamf Pro scripts
+  url: https://github.com/ScottEKendall/JAMF-Pro-Scripts
+  subcategory: Scripts & references
+  description: Collection of Jamf Pro shell scripts, many using swiftDialog, for tasks like FileVault key management, cleanup and user prompts.
+  keywords: [swiftdialog, jamf pro, filevault, shell scripts, policies, user prompts]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Scott Kendall Jamf Pro system scripts
+  url: https://github.com/ScottEKendall/JAMF-Pro-System-Scripts
+  subcategory: Scripts & references
+  description: Jamf Pro scripts for first aid, maintenance, health checks, LAPS, enrollment and app repairs, grouped by task prefix.
+  keywords: [swiftdialog, laps, intune, troubleshooting, maintenance, crowdstrike]
+  platforms: [macOS]
+  works_with: [jamf]
+  added: 2026-10-24
+
+- name: Scott Kendall Microsoft Platform SSO
+  url: https://github.com/ScottEKendall/Microsoft-Platform-SSO
+  subcategory: Security & identity
+  description: Guide and scripts for deploying Platform SSO with Microsoft Entra ID through Jamf Pro, including compliance and Company Portal checks.
+  keywords: [psso, entra id, company portal, sso extension, device compliance, intune]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Script2Pkg
+  url: https://github.com/SAP/script-to-package-tool-for-macos
+  subcategory: Packaging
+  description: Mac app that wraps scripts into payload-free installer packages, with signing, notarization and signature verification.
+  keywords: [payload-free, pkg, notarization, signing, packaging, sap]
+  platforms: [macOS]
+  cost: open-source
+
+- name: scriptorium
+  url: https://github.com/Honestpuck/scriptorium
+  subcategory: Jamf
+  description: Command-line utility that keeps Jamf Pro scripts in git repositories for backup, change tracking and easier editing.
+  keywords: [jamf pro, scripts, git, version control, backup, api]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Serial Number Reader
+  url: https://github.com/JordyThery/Serial-Number-Reader
+  subcategory: Inspection
+  description: Reads serial numbers of connected iPhones, iPads and Macs, even ones that won't boot, and looks them up in Jamf Pro.
+  keywords: [serial number, usb, inventory, csv export, jamf pro]
+  platforms: [macOS, iOS, iPadOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: Setup Manager HUD
+  url: https://github.com/motionbug/setupmanagerhud
+  subcategory: Onboarding
+  description: Cloudflare Workers dashboard that receives Setup Manager webhooks and shows Mac enrollments, durations and failed actions live.
+  keywords: [webhook, ade, enrollment monitoring, cloudflare, jamf setup manager, prestage]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Setup Your Mac
+  url: https://github.com/setup-your-mac/Setup-Your-Mac
+  subcategory: Onboarding
+  description: swiftDialog-based onboarding experience for Jamf Pro enrollments.
+  keywords: [enrollment, ade, policy custom events, sym-helper, zero-touch]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+
+- name: SF Icons
+  url: https://github.com/aanklewicz/SFIcons
+  subcategory: Utilities
+  description: Generates macOS-style app icons from SF Symbols, as a GUI app or the sficons CLI, for Self Service catalogues.
+  keywords: [sf symbols, self service, icon generator, branding, cli]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Slack
+  url: https://slack.com/downloads/osx
+  subcategory: Productivity
+  description: Download page for Slack's Mac desktop app, with a Mac App Store option, release notes and enterprise deployment guides.
+  keywords: [chat, messaging, mac admins slack, deployment, dmg]
+  platforms: [macOS]
+  cost: freemium
+
+- name: SOFA
+  url: https://sofa.macadmins.io/
+  subcategory: Software updates
+  description: Machine-readable feed of Apple OS releases, CVEs and supported devices.
+  keywords: [software updates, json feed, rss, security releases, patching, macadmins open source]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  cost: open-source
+
+- name: Sublime Text
+  url: https://www.sublimetext.com/
+  subcategory: Editors
+  description: Cross-platform text editor for code, markup and prose, with multiple selections and native Apple silicon builds.
+  keywords: [text editor, code editor, scripting, syntax highlighting]
+  platforms: [macOS]
+  cost: paid
+
+- name: Support Companion
+  url: https://github.com/macadmins/supportcompanion
+  subcategory: Intune
+  description: Branded self-service app showing device health, updates and compliance, with an app catalogue and time-limited admin rights.
+  keywords: [self service, privilege elevation, helpdesk, compliance, patching]
+  platforms: [macOS]
+  works_with: [jamf, intune, fleet, munki]
+  cost: open-source
+
+- name: sus-inspector
+  url: https://github.com/hjuutilainen/sus-inspector
+  subcategory: Software updates
+  description: Mac app that replicates Apple's software update catalogs with Reposado and lets you browse each product's details.
+  keywords: [software update catalog, sucatalog, reposado, sus]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Suspicious Package
+  url: https://www.mothersruin.com/software/SuspiciousPackage/
+  subcategory: Inspection
+  description: Inspect an installer package’s files and scripts before you install it.
+  keywords: [pkg, installer, notarization, quick look, preinstall scripts]
+  platforms: [macOS]
+  cost: free
+
+- name: swiftDialog
+  url: https://github.com/swiftDialog/swiftDialog
+  subcategory: User environment
+  description: Builds native macOS dialogs and progress windows from shell scripts.
+  keywords: [user prompts, notifications, onboarding, swiftui, bart reardon]
+  platforms: [macOS]
+  cost: open-source
+
+- name: SYM-Helper
+  url: https://github.com/setup-your-mac/SYM-Helper
+  subcategory: Onboarding
+  description: Standalone macOS app that helps admins generate and configure the Setup Your Mac script.
+  keywords: [setup your mac, swiftdialog, enrollment, jamf pro policies, sym]
+  platforms: [macOS]
+  works_with: [jamf]
+  added: 2026-10-24
+
+- name: SYM-Lite
+  url: https://github.com/setup-your-mac/SYM-Lite
+  subcategory: App management
+  description: Lets users pick Installomator labels, Homebrew packages and Jamf Pro policies from a swiftDialog checklist, then installs them.
+  keywords: [installomator, homebrew, swiftdialog, self service, setup your mac]
+  platforms: [macOS]
+  works_with: [any-mdm, jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Tart
+  url: https://tart.run/
+  subcategory: Virtualization
+  description: Virtualization toolset for macOS and Linux VMs on Apple Silicon.
+  keywords: [virtual machines, ci, oci registry, orchard, virtualization.framework, mdm testing]
+  platforms: [macOS]
+  cost: freemium
+
+- name: Taskade
+  url: https://taskade.com/
+  subcategory: Productivity
+  description: AI workspace for tasks, projects and no-code apps, with agents, automations and integrations on web, desktop and mobile.
+  keywords: [task management, project management, to-do, ai agents, automation]
+  cost: freemium
+
+- name: Telepod, MacOnboardingMate
+  url: https://www.agnosys.com/logiciels/
+  subcategory: Onboarding
+  description: 'Agnosys software: MacOnboardingMate for Mac MDM enrolment and migration, Telepod for iOS device lifecycle, and EasyLAPS.'
+  keywords: [mdm migration, enrollment, laps, mscp, compliance, agnosys]
+  platforms: [macOS, iOS]
+  cost: paid
+
+- name: Terraform Provider for Jamf Platform
+  url: https://github.com/jamf/terraform-provider-jamfplatform
+  subcategory: Automation
+  description: Terraform and OpenTofu provider for Jamf Platform blueprints, device groups, compliance benchmarks, Jamf Pro and Security Cloud settings.
+  keywords: [terraform, opentofu, iac, jamfplatform, blueprints, jamf security cloud]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Third Party Patcher
+  url: https://github.com/gilburns/Third-Party-Patcher
+  subcategory: App management
+  description: MDM-agnostic daemon that scans, stages and applies third-party app updates from Installomator labels, with deferrals and self-service.
+  keywords: [installomator, swiftdialog, patching, self service, deferral, tpp]
+  platforms: [macOS]
+  works_with: [any-mdm]
+  cost: open-source
+  added: 2026-10-24
+
+- name: Trello
+  url: https://trello.com/
+  subcategory: Productivity
+  description: Board-and-list task and project management with inbox capture, a calendar planner, automation and integrations.
+  keywords: [kanban, task management, project management, to-do, atlassian]
+  cost: freemium
+
+- name: tseec
+  url: https://github.com/txhaflaire/tseec
+  subcategory: Inspection
+  description: Command-line tool that queries and exports macOS TCC privacy permissions as JSON or plist, filtered by app or service.
+  keywords: [tcc, pppc, privacy permissions, full disk access, audit]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Twocanoes DFU Blaster Pro (downloads)
+  url: https://bitbucket.org/twocanoes/dfu-blaster-public/downloads/
+  subcategory: Utilities
+  description: Download page for Twocanoes DFU Blaster Pro builds, which put an Apple silicon Mac into DFU mode for a revive or restore.
+  keywords: [dfu, restore, revive, apple configurator, ipsw]
+  platforms: [macOS]
+  cost: free
+
+- name: Twocanoes Software
+  url: https://twocanoes.com/
+  subcategory: Utilities
+  description: Developer of Mac admin and smart card software, including XCreds, DFU Blaster Pro, Winclone and MDS (Mac Deploy Stick).
+  keywords: [smart card, winclone, mds, xcreds, certificates, authentication]
+  platforms: [macOS, iOS, iPadOS]
+  cost: paid
+
+- name: Uninstaller
+  url: https://github.com/erikstam/uninstaller
+  subcategory: App management
+  description: Shell script that removes an app with its preferences, licence files and caches by label, leaving user data intact.
+  keywords: [uninstall, labels, cleanup, app removal, erik stam]
+  platforms: [macOS]
+  cost: open-source
+
+- name: University of Utah
+  url: https://github.com/univ-of-utah-marriott-library-apple
+  subcategory: Scripts & references
+  description: 'Marriott Library''s GitHub with Mac admin code: python-jamf, Jamf Title Editor scripts, Dock templates and Adobe uninstallers.'
+  keywords: [python-jamf, jctl, jamf pro, title editor, dockutil, adobe]
+
+- name: Update macOS DDM Jamf
+  url: https://github.com/avogel-mac/Update_macOS_DDM
+  subcategory: Software updates
+  description: Script that enforces macOS updates within admin-set deadlines, using SOFA data for criticality and skipping chosen weekdays.
+  keywords: [ddm, sofa, deadline, software update, jamf pro]
+  platforms: [macOS]
+
+- name: utiluti
+  url: https://github.com/scriptingosx/utiluti
+  subcategory: User environment
+  description: Command-line tool to view and set default apps for URL schemes, file types and UTIs, including from plists or profiles.
+  keywords: [default browser, uti, launchservices, url scheme, armin briegel]
+  platforms: [macOS]
+  cost: open-source
+
+- name: vfuse
+  url: https://github.com/chilcote/vfuse
+  subcategory: Virtualization
+  description: Python script that converts a never-booted macOS DMG into a VMware Fusion virtual machine; deprecated.
+  keywords: [vmware fusion, autodmg, vm, testing]
+  platforms: [macOS]
+  cost: open-source
+  archived: true
+
+- name: Visual Studio Code
+  url: https://code.visualstudio.com/
+  subcategory: Editors
+  description: Microsoft's open-source code editor with built-in AI agents, debugging, terminal, Git and an extensions marketplace.
+  keywords: [vs code, vscode, code editor, scripting, extensions, mcp]
+  platforms: [macOS]
+  cost: open-source
+
+- name: WhatCable
+  url: https://github.com/darrylmorley/whatcable
+  subcategory: Utilities
+  description: Menu bar app and CLI that explains in plain English what each USB-C cable, charger and device plugged into a Mac can do.
+  keywords: [usb-c, thunderbolt, usb power delivery, charging, iokit, e-marker]
+  platforms: [macOS]
+  cost: freemium
+  added: 2026-10-24
+
+- name: WiFi Explorer
+  url: https://www.intuitibits.com/products/wifiexplorer/
+  subcategory: Inspection
+  description: Wi-Fi scanner that shows nearby networks' channels, bands, security and rates, and flags channel conflicts and overlap.
+  keywords: [wifi, wlan, wireless troubleshooting, ssid, channel analysis]
+  platforms: [macOS]
+  cost: paid
+
+- name: Workbrew
+  url: https://workbrew.com/
+  subcategory: App management
+  description: 'Fleet management for Homebrew: inventories Homebrew, npm and IDE extensions on Macs, enforces install policies and patches CVEs.'
+  keywords: [homebrew, brew, npm, vs code extensions, cve, software inventory]
+  platforms: [macOS]
+  cost: freemium
+  added: 2026-10-24
+
+- name: Xcode
+  url: https://apps.apple.com/us/app/xcode/id497799835?mt=12
+  subcategory: Editors
+  description: Apple's IDE for building apps for all Apple platforms, with Swift, SwiftUI, simulators, Instruments and command-line tools.
+  keywords: [ide, swiftui, developer tools, mac app store]
+  platforms: [macOS]
+  cost: free
+  tags: [apple]
+
+- name: XCreds
+  url: https://github.com/twocanoes/xcreds
+  subcategory: Security & identity
+  description: Sign in to the Mac with your cloud identity provider and keep passwords in sync.
+  keywords: [idp, oidc, entra id, google, login window, password sync]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Yo
+  url: https://github.com/sheagcraig/yo
+  subcategory: User environment
+  description: Sends persistent, customisable Notification Center messages with buttons and actions from the command line.
+  keywords: [notifications, user alerts, notification center, munki, jamf]
+  platforms: [macOS]
+  cost: open-source

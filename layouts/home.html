@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{- $total := 0 }}{{ range hugo.Data.categories }}{{ $total = add $total (len (index hugo.Data.resources .id)) }}{{ end -}}
+<header class="toolbar">
+  <div class="toolbar-titles">
+    <h1 id="title">All resources</h1>
+    <p id="lede" data-default="{{ $total }} tools, docs, blogs, podcasts and communities, curated by Mac admins.">{{ $total }} tools, docs, blogs, podcasts and communities, curated by Mac admins.</p>
+  </div>
+  <div class="toolbar-actions">
+    <div class="segmented" role="group" aria-label="Show">
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-filter="apple" aria-pressed="false">From Apple</button>
+      <button type="button" data-filter="github" aria-pressed="false">On GitHub</button>
+    </div>
+    <a class="btn btn-primary" href="{{ (site.GetPage "/submit").RelPermalink }}">{{ partial "icon.html" "plus" }}Submit</a>
+  </div>
+</header>
+
+<div class="chips" id="chips" hidden></div>
+<p class="status" id="status" aria-live="polite"></p>
+
+{{ range hugo.Data.categories }}
+{{- $cat := . }}{{ $items := index hugo.Data.resources .id }}
+<section class="group" data-cat="{{ .id }}" data-name="{{ .name }}" data-desc="{{ .description }}">
+  <h2 class="group-title"><span class="tile tile-sm c-{{ .color }}">{{ partial "icon.html" .icon }}</span>{{ .name }}<span class="count">{{ len $items }}</span></h2>
+  {{- $subs := .subcategories | default slice }}
+  {{- $sorted := 0 }}{{ range $items }}{{ if .subcategory }}{{ $sorted = add $sorted 1 }}{{ end }}{{ end }}
+  {{- if and (ge (len $subs) 2) (eq $sorted (len $items)) }}
+    {{- /* Every resource has a subcategory: show them as folders, in the order of data/categories.yaml */}}
+    {{- range $subs }}{{ $sub := . }}{{ $subItems := where $items "subcategory" $sub }}
+    {{- with $subItems }}
+  <div class="subgroup" data-sub="{{ $sub }}">
+    <h3 class="subgroup-title">{{ $sub }}<span class="subcount">{{ len . }}</span></h3>
+    <ul class="list">
+      {{ range . }}{{ partial "item.html" (dict "r" . "cat" $cat "grouped" true) }}{{ end }}
+    </ul>
+  </div>
+    {{- end }}{{ end }}
+  {{- else }}
+  <ul class="list">
+    {{ range $items }}{{ partial "item.html" (dict "r" . "cat" $cat) }}{{ end }}
+  </ul>
+  {{- end }}
+</section>
+{{ end }}
+
+<div class="empty" id="empty" hidden>
+  <p class="empty-title">No matches</p>
+  <p>Try another word, or <a href="{{ (site.GetPage "/submit").RelPermalink }}">submit the resource</a> if it's missing.</p>
+</div>
+{{ end }}

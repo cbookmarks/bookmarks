@@ -1,0 +1,128 @@
+- name: Atlanta Mac Admins
+  url: https://www.eventbrite.com/o/atlanta-apple-admins-58609161243
+  subcategory: User groups & organisations
+  description: User group for people managing Apple devices in Atlanta, meeting about monthly for talks or networking; events on Eventbrite.
+  keywords: [meetup, user group, atlanta, georgia, eventbrite]
+
+- name: Berlin MacAdmins
+  url: https://berlinmacadmins.github.io
+  subcategory: User groups & organisations
+  description: Mac admin user group with in-person meetups in Berlin; news via the Mac Admins Slack, a mailing list and LinkedIn.
+  keywords: [meetup, user group, berlin, germany, slack]
+
+- name: East Midlands Apple Admins
+  url: https://community.jamf.com/groups/east-midlands-apple-admins-uk-29
+  subcategory: User groups & organisations
+  description: Jamf Nation group for Apple admins in education and enterprise in the East Midlands, UK, to share knowledge and collaborate.
+  keywords: [user group, jamf nation, uk, east midlands, meetup]
+
+- name: Greater Philadelphia Mac Admins
+  url: https://phillymacadmins.com
+  subcategory: User groups & organisations
+  description: macOS and iOS admin group for Greater Philadelphia, Delaware and South Jersey, with monthly in-person or Zoom and social meetups.
+  keywords: [meetup, user group, philadelphia, pennsylvania, zoom]
+
+- name: Jamf Heroes
+  url: https://community.jamf.com/p/jamf-heroes
+  subcategory: Jamf
+  description: Jamf's recognition programme for Jamf Nation members who contribute answers, content and feedback to the community.
+  keywords: [jamf nation, advocacy, community, recognition]
+
+- name: Jamf Nation
+  url: https://community.jamf.com/
+  subcategory: Jamf
+  description: Jamf's community forum for Apple admins, with discussions, user groups, Product Office Hours, a job board and the Tech Thoughts blog.
+  keywords: [forum, jamf pro, jamf school, user groups, jnuc, support]
+
+- name: Jamf User Groups
+  url: https://community.jamf.com/p/user-groups
+  subcategory: User groups & organisations
+  description: Jamf Nation directory of Jamf user groups in North America, Europe, Asia/Pacific and LATAM, plus speciality groups, with a map.
+  keywords: [user group, meetup, jamf nation, local groups]
+
+- name: London Apple Admins
+  url: https://londonappleadmins.org.uk
+  subcategory: User groups & organisations
+  description: In-person meetups for Apple admins in London with talks, food and a pub visit; free Eventbrite tickets and recordings on YouTube.
+  keywords: [meetup, user group, london, uk, laa]
+
+- name: Mac Admins
+  url: https://www.macadmins.org/
+  subcategory: User groups & organisations
+  description: Home of the Mac Admins Foundation, which runs the Mac Admins Slack, conference and speaker grants, mentorship and an events calendar.
+  keywords: [slack, nonprofit, grants, mentorship, community]
+
+- name: Mac Admins Community Map
+  url: https://www.google.com/maps/d/u/0/viewer?mid=1Ao_VrRMOPcg-8vVSpPgd-6yRylOUUfk&ll=-3.81666561775622e-14%2C-106.80764550000004&z=2
+  subcategory: User groups & organisations
+  description: Google My Maps of Mac admin user groups and gatherings, with each group's meeting cadence and contact details.
+  keywords: [user group, meetup, map, local groups]
+
+- name: Mac Admins Foundation
+  url: https://macadmins.org/about/
+  subcategory: User groups & organisations
+  description: 501(c)(3) non-profit that runs the Mac Admins Slack and funds conference, travel and speaker grants and a mentorship programme.
+  keywords: [nonprofit, 501c3, slack, grants, board]
+
+- name: Mac Admins India
+  url: https://macadmins.in
+  subcategory: User groups & organisations
+  description: Community of Apple IT professionals across India, with a WhatsApp group, Slack channel, monthly huddles and the annual MAIC conference.
+  keywords: [user group, india, maic, whatsapp, meetup, conference]
+
+- name: Mac Admins Open Source
+  url: https://macadmins.io/
+  subcategory: User groups & organisations
+  description: Organisation that code-signs and hosts open-source Mac admin tools such as Nudge, Outset, Escrow Buddy, SOFA and Munki builds.
+  keywords: [code signing, nudge, outset, sofa, escrow buddy, munki]
+  platforms: [macOS]
+  cost: open-source
+
+- name: Mac Admins Slack
+  url: https://macadmins.org/community/slack/
+  subcategory: Slack & social
+  description: Mac Admins Foundation page on how to join the Mac Admins Slack, the community's chat workspace for Apple device admins.
+  keywords: [slack, invite, join, community]
+
+- name: MacAdmins Scotland
+  url: https://community.jamf.com/groups/scotland-mac-admins-127
+  subcategory: User groups & organisations
+  description: Jamf Nation group for Apple admins and techs who gather in Scotland to share knowledge and troubleshoot together.
+  keywords: [user group, jamf nation, scotland, uk, meetup]
+
+- name: Microsoft Mac Admins (LinkedIn)
+  url: https://aka.ms/MacAdmins
+  subcategory: Slack & social
+  description: Private LinkedIn group where Mac admins and Microsoft's Intune Apple team discuss Intune, Entra ID and Microsoft 365 on Apple devices.
+  keywords: [intune, microsoft, linkedin, entra id, ddm]
+
+- name: Mr. Macintosh on X
+  url: https://x.com/ClassicII_MrMac
+  subcategory: Slack & social
+  description: Mr. Macintosh's X account, posting macOS release, beta and security update news alongside Mac admin tips.
+  keywords: [mr macintosh, twitter, macos updates, beta, ipsw]
+
+- name: NYC Mac Admins
+  url: https://nycmacadmins.com
+  subcategory: User groups & organisations
+  description: 'Mac admin meetup in New York City with talks, discussion and food; announcements in #newyork on the Mac Admins Slack.'
+  keywords: [nyc, new york, meetup, user group, slack]
+
+- name: r/jamf
+  url: https://www.reddit.com/r/jamf/
+  subcategory: Reddit
+  description: Subreddit where Jamf admins ask questions and discuss Jamf Pro, Jamf School, Jamf Connect and Jamf Protect.
+  keywords: [jamf pro, jamf school, reddit, forum, troubleshooting]
+  works_with: [jamf]
+
+- name: r/k12sysadmin
+  url: https://www.reddit.com/r/k12sysadmin/
+  subcategory: Reddit
+  description: Subreddit for IT staff in K-12 schools discussing device management, networks, content filtering and education IT.
+  keywords: [k12, education, schools, chromebook, content filtering, reddit]
+
+- name: r/macsysadmin
+  url: https://www.reddit.com/r/macsysadmin/
+  subcategory: Reddit
+  description: Subreddit for Mac system administrators to ask questions and share fixes for managing macOS and iOS in organisations.
+  keywords: [macsysadmin, reddit, mdm, forum, troubleshooting]

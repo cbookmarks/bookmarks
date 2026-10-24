@@ -1,0 +1,9 @@
+<footer class="footer">
+  <p class="footer-note">Curated by the Mac Admin community · <a href="{{ site.Params.repo }}">Source on GitHub</a></p>
+  <nav class="footer-links" aria-label="More">
+    <a href="{{ (site.GetPage "/submit").RelPermalink }}">Suggest a resource</a>
+    <a href="{{ site.Params.repo }}/issues/new?template=resource-update.yml">Report a broken link</a>
+    <a href="{{ "bookmarks.html" | relURL }}" download>Browser bookmarks</a>
+    <a href="{{ "resources.json" | relURL }}">JSON</a>
+  </nav>
+</footer>

@@ -1,0 +1,64 @@
+- name: 9to5Mac
+  url: https://9to5mac.com/
+  description: News site covering Apple products, software releases and rumours throughout the day.
+  keywords: [apple news, rumors, ios, breaking news]
+
+- name: A list of Apple-related RSS feeds (Jeff Johnson)
+  url: https://lapcatsoftware.com/articles/RSS.html
+  subcategory: Feeds
+  description: 'Jeff Johnson''s list of Apple-related RSS feeds: Apple newsroom and developer feeds, WebKit, Xcode releases and Apple news sites.'
+  keywords: [rss, feed list, lapcat, webkit, apple developer]
+  tags: [rss]
+
+- name: Apple News
+  url: https://developer.apple.com/news/releases/rss/releases.rss
+  subcategory: Feeds
+  description: Apple Developer RSS feed announcing OS, Xcode and App Store Connect releases, betas and release candidates.
+  keywords: [rss, betas, release candidate, xcode, software updates]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  tags: [apple, rss]
+
+- name: AWS Health - Service health
+  url: https://health.aws.amazon.com/health/status
+  subcategory: Feeds
+  description: AWS Health Dashboard showing the current status and incident history of AWS services by region, with per-service RSS feeds.
+  keywords: [aws, status page, outage, service health, rss]
+
+- name: HCS White Papers
+  url: https://hcsonline.com/support/resources/white-papers?format=feed&catid=43
+  subcategory: Feeds
+  description: RSS feed of HCS Technology Group technical articles on topics such as Platform SSO, passkeys, APNs and DDM with Jamf and Intune.
+  keywords: [psso, jamf pro, intune, ddm, passkeys, rss]
+
+- name: Mac RSS Feed Catalogue
+  url: https://www.rsscatalog.com/Mac
+  subcategory: Feeds
+  description: Directory of public Mac-related RSS feeds.
+  keywords: [rss, feed directory, news feeds, catalog]
+  tags: [rss]
+
+- name: MacAdmins Newsletter
+  url: https://macadmins.news/
+  description: Weekly summary of news, blog posts, updates and other links for Apple device management and security professionals.
+  keywords: [newsletter, weekly, armin briegel, scripting os x, news]
+
+- name: MacHash
+  url: https://machash.com/
+  description: Real-time aggregator of Apple news and rumour headlines from sites such as MacRumors, 9to5Mac, Macworld and Daring Fireball.
+  keywords: [aggregator, headlines, apple news, rumors]
+
+- name: MacRumors
+  url: https://www.macrumors.com/
+  description: Apple news and rumours site with forums, a buyer's guide, how-to guides, deals and a podcast.
+  keywords: [apple news, rumors, forums, buyers guide]
+
+- name: OSX Daily
+  url: https://osxdaily.com
+  description: News, tips and how-to tutorials for Mac, iPhone and iPad users, covering macOS, iOS and iPadOS features and troubleshooting.
+  keywords: [tips, tutorials, troubleshooting, macos news]
+
+- name: SupportDiffs
+  url: https://mastodon.online/@SupportDiffs
+  subcategory: Feeds
+  description: Mastodon account that tracks and posts changes to Apple support documents; not affiliated with Apple.
+  keywords: [support articles, documentation changes, diffs, mastodon, kb]

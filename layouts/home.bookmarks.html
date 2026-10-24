@@ -1,0 +1,32 @@
+<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<!-- Generated from {{ site.Params.repo }} on {{ now.Format "2006-01-02" }}. Import this file into your browser's bookmarks. -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<TITLE>Bookmarks</TITLE>
+<H1>Bookmarks</H1>
+<DL><p>
+    <DT><H3>{{ site.Title | htmlEscape }}</H3>
+    <DL><p>
+{{- range hugo.Data.categories }}
+{{- $items := index hugo.Data.resources .id }}
+        <DT><H3>{{ .name | htmlEscape }}</H3>
+        <DL><p>
+{{- $subs := .subcategories | default slice }}
+{{- $sorted := 0 }}{{ range $items }}{{ if .subcategory }}{{ $sorted = add $sorted 1 }}{{ end }}{{ end }}
+{{- if and (ge (len $subs) 2) (eq $sorted (len $items)) }}
+{{- range $subs }}{{ $subItems := where $items "subcategory" . }}{{ with $subItems }}
+            <DT><H3>{{ index $subItems 0 "subcategory" | htmlEscape }}</H3>
+            <DL><p>
+{{- range . }}{{ if not .archived }}
+                <DT><A HREF="{{ .url | htmlEscape }}">{{ .name | htmlEscape }}</A>
+{{- end }}{{ end }}
+            </DL><p>
+{{- end }}{{ end }}
+{{- else }}
+{{- range $items }}{{ if not .archived }}
+            <DT><A HREF="{{ .url | htmlEscape }}">{{ .name | htmlEscape }}</A>
+{{- end }}{{ end }}
+{{- end }}
+        </DL><p>
+{{- end }}
+    </DL><p>
+</DL><p>

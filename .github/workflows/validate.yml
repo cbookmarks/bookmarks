@@ -1,0 +1,37 @@
+# Checks every pull request: data rules, duplicates, formatting, and that the site still builds.
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+env:
+  HUGO_VERSION: "0.168.0"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - run: pip install pyyaml
+
+      - name: Check data files
+        run: python scripts/validate.py
+
+      - name: Install Hugo
+        run: |
+          curl -sSL -o "$RUNNER_TEMP/hugo.tgz" "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+          tar -xzf "$RUNNER_TEMP/hugo.tgz" -C "$RUNNER_TEMP" hugo
+          sudo mv "$RUNNER_TEMP/hugo" /usr/local/bin/hugo
+
+      - name: Build site
+        run: hugo --panicOnWarning
