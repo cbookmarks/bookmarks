@@ -1564,6 +1564,17 @@
   platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
   cost: open-source
 
+- name: Software Update Dashboard
+  url: https://github.com/JordyThery/Software-Update-Dashboard
+  subcategory: Software updates
+  description: Read-only Mac app showing whether each device in a Jamf Blueprint’s scope runs the OS version its software update asks for, and why not.
+  keywords: [blueprints, ddm, software update, compliance, jamf platform]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-11-18
+  submitted_by: '@JordyThery'
+
 - name: Sublime Text
   url: https://www.sublimetext.com/
   subcategory: Editors
