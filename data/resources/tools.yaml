@@ -982,6 +982,7 @@
 
 - name: Magic Toolbox
   url: https://github.com/MDMMagic/Magic-Toolbox
+  subcategory: Jamf
   description: An all-in-one Jamf Pro admin suite for macOS.
   platforms: [macOS]
   works_with: [jamf]
