@@ -977,6 +977,16 @@
   platforms: [macOS]
   cost: free
 
+- name: macOS Installer Archive
+  url: https://osinstallerarchive.com/
+  subcategory: Software updates
+  description: Every macOS and Mac OS X release with links to Apple’s official downloads, Terminal commands, a model lookup and bootable USB guides.
+  keywords: [installer, download macos, bootable usb, softwareupdate, downgrade]
+  platforms: [macOS]
+  cost: free
+  added: 2026-11-18
+  submitted_by: '@JordyThery'
+
 - name: macOS Intune Support Assistant
   url: https://github.com/pathaksomesh06/MISA
   subcategory: Intune
