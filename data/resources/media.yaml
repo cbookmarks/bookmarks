@@ -81,9 +81,9 @@
   works_with: [jamf]
 
 - name: JNUC 2026
-  url: https://www.youtube.com/playlist?list=PLlxHm_Px-Ie0Lbh7ruho_kEswwXLBBZh2
+  url: https://www.youtube.com/playlist?list=PLNZVW2S9xN78
   subcategory: Conference recordings
-  description: Jamf's playlist of videos from the Jamf Nation User Conference 2026 in Kansas City.
+  description: Jamf's playlist of session recordings from the Jamf Nation User Conference 2026 in Kansas City.
   keywords: [jnuc, jamf nation, sessions, kansas city]
 
 - name: Keeping IT Talking (Jigsaw24)
