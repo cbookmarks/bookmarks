@@ -349,6 +349,17 @@
   cost: open-source
   added: 2026-10-24
 
+- name: Dash for Jamf Pro
+  url: https://apps.apple.com/us/app/dash-for-jamf-pro-mdm-admin/id6828421931
+  subcategory: Jamf
+  description: 'iPhone and iPad app for Jamf Pro admins: fleet health, device lookup, FileVault and LAPS keys, MDM commands, enrollment and patch reports.'
+  keywords: [jamf pro, mobile, ios]
+  platforms: [iOS, iPadOS]
+  works_with: [jamf]
+  cost: paid
+  added: 2026-11-18
+  submitted_by: '@JordyThery'
+
 - name: DDM Explorer
   url: https://concepts.jamf.com/en/concepts/ddm-explorer/
   subcategory: Profiles & compliance
