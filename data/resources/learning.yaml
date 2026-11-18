@@ -1,0 +1,53 @@
+- name: Armin Briegel - Books & Resources (Scripting OS X)
+  url: https://scriptingosx.com/books/
+  description: Armin Briegel's books for Apple admins on macOS installation, packaging, property lists and profiles, and the Terminal and shell.
+  keywords: [scripting os x, packaging, pkg, plist, configuration profiles]
+  platforms: [macOS]
+  cost: paid
+
+- name: Armin Briegel in Apple Books
+  url: https://books.apple.com/nl/author/armin-briegel/id1173930231
+  description: Apple Books author page listing Armin Briegel's books on zsh, packaging, property lists and profiles, and the macOS Terminal.
+  keywords: [scripting os x, packaging, plist, ebooks]
+  platforms: [macOS]
+  cost: paid
+
+- name: The Art of Mac Malware
+  url: https://taomm.org/
+  description: 'Patrick Wardle''s two-volume book on analysing and detecting Mac malware: infection, persistence, reverse engineering and heuristics.'
+  keywords: [taomm, malware analysis, reverse engineering, objective-see, threat detection]
+  platforms: [macOS]
+
+- name: 'ComputerWorld: Upskilling for Apple IT Admins'
+  url: https://www.computerworld.com/article/3625379/for-apple-it-admins-the-new-year-means-its-a-good-time-to-upskill.html
+  description: Ryan Faas' Computerworld guide to training, certifications, conferences, blogs and podcasts for people who manage Apple devices.
+  keywords: [certification, training, upskilling, apple training, career]
+
+- name: Hacking with macOS
+  url: https://www.hackingwithswift.com/store/hacking-with-macos
+  description: Paul Hudson's project-based book on building macOS apps with Swift and SwiftUI, with a bonus AppKit edition and source code.
+  keywords: [swiftui, appkit, xcode, app development]
+  platforms: [macOS]
+  cost: paid
+
+- name: intunemacadmins
+  url: https://www.intunemacadmins.com
+  description: 'Community playbook for managing Macs with Microsoft Intune: guides on ADE, Platform SSO, FileVault and DDM, plus a baseline and scripts.'
+  keywords: [microsoft intune, psso, filevault, ddm, baseline, ade]
+  platforms: [macOS]
+  works_with: [intune]
+
+- name: Jamf Training
+  url: https://training.jamf.com/
+  subcategory: Jamf
+  description: Jamf's training portal with associate certification exams for Jamf Pro, Jamf School and Jamf Protect and an online course catalog.
+  keywords: [jamf 100, certification, jamf pro, jamf school, jamf protect, courses]
+  works_with: [jamf]
+  cost: paid
+
+- name: Scripting JAMF Best Practices
+  url: https://scriptingosx.com/jnuc2020/
+  description: 'Armin Briegel''s JNUC 2020 talk on Jamf scripting: shell setup, current-user detection, running as root and avoiding PPPC prompts.'
+  keywords: [jnuc, pppc, tcc, desktoppr]
+  platforms: [macOS]
+  works_with: [jamf]

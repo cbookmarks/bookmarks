@@ -1,0 +1,38 @@
+baseURL = "https://example.org/"   # replaced at build time by the deploy workflow
+locale = "en"
+title = "Community Bookmarks"
+disableKinds = ["taxonomy", "term", "rss"]
+enableRobotsTXT = true
+
+[params]
+  tagline = "Apple admin resources, curated by the community"
+  description = "A searchable, community-curated directory of tools, documentation, blogs, podcasts and user groups for people who manage Apple devices."
+  # Repository for the Submit and GitHub links. The deploy workflow replaces this with the
+  # repository the site is built from, so nothing needs changing when the repository moves.
+  repo = "https://github.com/cbookmarks/bookmarks"
+  branch = "main"
+
+# Extra files built from the same data on every update
+#   /bookmarks.html  – import into any browser (replaces the old bookmarks file)
+#   /resources.json  – everything as JSON, for anyone who wants to reuse the data
+[outputFormats.bookmarks]
+  mediaType = "text/html"
+  baseName = "bookmarks"
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.api]
+  mediaType = "application/json"
+  baseName = "resources"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["html", "api", "bookmarks"]
+  page = ["html"]
+
+[markup.goldmark.renderer]
+  unsafe = false
+
+[markup.goldmark.parser.attribute]
+  block = true

@@ -1,0 +1,139 @@
+- name: Addigy
+  url: https://addigy.com/
+  description: Cloud Apple MDM with a live agent, remote monitoring, software deployment and optional EDR and MDR, aimed at IT teams and MSPs.
+  keywords: [mdm, msp, rmm, abm, edr]
+  platforms: [macOS, iOS, iPadOS, tvOS]
+  cost: paid
+
+- name: BlackBerry UEM
+  url: https://www.blackberry.com/us/en/support/enterprise-apps/blackberry-uem
+  description: Support hub for BlackBerry UEM, a unified endpoint management and security console, with docs for planning, install and administration.
+  keywords: [uem, blackberry dynamics, blackberry access, mdm, on-premises]
+  platforms: [iOS, macOS]
+  cost: paid
+
+- name: FileWave
+  url: https://www.filewave.com/
+  description: Unified endpoint management for macOS, iOS, Windows, ChromeOS and Android, with Fileset deployment, patching and inventory.
+  keywords: [uem, mdm, patching, inventory, education]
+  platforms: [macOS, iOS, iPadOS, tvOS]
+  cost: paid
+
+- name: Fleet
+  url: https://fleetdm.com/
+  description: Open-source device management combining MDM, patching, vulnerability management and live osquery queries, with GitOps support.
+  keywords: [osquery, gitops, mdm, vulnerability management, patching]
+  platforms: [macOS, iOS, iPadOS]
+  cost: open-source
+
+- name: Hexnode
+  url: https://www.hexnode.com/
+  description: Unified endpoint management platform for mobiles, desktops, TVs and IoT devices, with add-on XDR and identity products.
+  keywords: [uem, mdm, kiosk, xdr, msp]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS]
+  cost: paid
+
+- name: Iru
+  url: https://www.iru.com/
+  description: Device management, EDR, identity and compliance platform for IT and security teams, managing Apple, Windows, Linux and Android.
+  keywords: [kandji, mdm, edr, compliance, identity]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS]
+  cost: paid
+
+- name: Jamf
+  url: https://www.jamf.com/
+  subcategory: Jamf
+  description: Apple device management and security vendor behind Jamf Pro, Jamf School, Jamf Now, Jamf Connect and Jamf Protect.
+  keywords: [mdm, jamf pro, jamf protect, jamf connect, jamf school]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  cost: paid
+
+- name: Jamf Account
+  url: https://account.jamf.com/
+  subcategory: Jamf
+  description: Jamf customer portal for managing licences, product downloads, Jamf ID users and hosted instances.
+  keywords: [jamf id, licence, downloads, jamf pro, customer portal]
+
+- name: Jamf Learning Hub
+  url: https://learn.jamf.com
+  subcategory: Jamf
+  description: Jamf's documentation portal for Jamf Pro, School, Protect, Connect and other products, with videos and training links.
+  keywords: [documentation, docs, jamf pro, jamf school, jamf protect, admin guide]
+
+- name: Jamf Nation Ideas
+  url: https://ideas.jamf.com
+  subcategory: Jamf
+  description: Jamf Nation portal to submit and vote on feature ideas for Jamf Pro, Jamf School, Jamf Connect, Jamf Protect and other products.
+  keywords: [feature request, ideas, roadmap, jamf pro, voting]
+
+- name: Jamf Security
+  url: https://security.jamf.com
+  subcategory: Jamf
+  description: Jamf's SafeBase trust portal with compliance certifications such as SOC 2 and ISO 27001, security policies and vulnerability notices.
+  keywords: [soc 2, iso 27001, safebase, vendor risk, compliance, security review]
+
+- name: Jamf Status
+  url: https://status.jamf.com
+  subcategory: Jamf
+  description: Real-time and historical status of Jamf cloud services, including Jamf Pro, JCDS, Jamf School, Protect and Security Cloud.
+  keywords: [outage, uptime, incidents, jcds, maintenance]
+
+- name: Jamf Support Portal
+  url: https://support.jamf.com
+  subcategory: Jamf
+  description: Jamf Technical Support knowledge base with searchable articles for Jamf Pro, Jamf School, Jamf Now, Connect and Protect.
+  keywords: [knowledge base, support, troubleshooting, jamf pro, jamf school]
+
+- name: Jamf Training – resources
+  url: https://trainingcatalog.jamf.com
+  subcategory: Jamf
+  description: Jamf's online training catalogue of paths, modules, workshops and quizzes for Jamf Pro, School, Now, Protect and Connect.
+  keywords: [training, courses, certification, jamf 100, jamf pro, e-learning]
+
+- name: JumpCloud
+  url: https://jumpcloud.com/
+  description: Cloud directory platform combining identity, SSO, MFA and device management for Windows, Apple, Linux and Android devices.
+  keywords: [directory, sso, mfa, radius, ldap, mdm]
+  platforms: [macOS, iOS]
+
+- name: Microsoft Intune
+  url: https://www.microsoft.com/en-GB/security/business/endpoint-management/microsoft-intune
+  subcategory: Microsoft Intune
+  description: Microsoft's cloud endpoint management service for Windows, macOS, iOS, Android and Linux, with compliance and Conditional Access.
+  keywords: [mdm, uem, entra id, conditional access, mam, microsoft 365]
+  platforms: [macOS, iOS, iPadOS]
+  cost: paid
+
+- name: Miradore
+  url: https://www.miradore.com/
+  description: Cloud MDM from GoTo for Android, iOS, macOS and Windows devices, with a free plan and paid Premium tiers.
+  keywords: [mdm, kiosk mode, patch management, msp, goto, logmein]
+  platforms: [macOS, iOS]
+  cost: freemium
+
+- name: Mosyle
+  url: https://mosyle.com/
+  description: Apple MDM and security platform for businesses, schools and MSPs, with hardening, antivirus, web filtering and patching.
+  keywords: [mdm, k-12, education, msp, cis benchmark, patching]
+  platforms: [macOS, iOS]
+  cost: paid
+
+- name: ninjaOne
+  url: https://www.ninjaone.com/mdm/
+  description: MDM module of the NinjaOne endpoint platform for Android and Apple devices, with remote wipe, kiosk mode and zero-touch enrolment.
+  keywords: [rmm, msp, uem, byod, zero-touch, kiosk mode]
+  platforms: [macOS, iOS, iPadOS]
+  cost: paid
+
+- name: Omnissa Workspace ONE UEM
+  url: https://www.omnissa.com/products/workspace-one-unified-endpoint-management/
+  description: Omnissa's Workspace ONE UEM, formerly VMware AirWatch, manages computers, phones and rugged devices across major OSes from one console.
+  keywords: [uem, airwatch, omnissa, mdm, byod]
+  cost: paid
+
+- name: SimpleMDM
+  url: https://simplemdm.com/
+  description: Apple MDM service for businesses with app and package deployment, hosted Munki, configuration profiles and a REST API.
+  keywords: [mdm, munki, vpp, api, configuration profiles]
+  platforms: [macOS, iOS]
+  cost: paid

@@ -1,0 +1,49 @@
+- name: Apple Allowed Autofill Domains
+  url: https://github.com/b0o/apple-autofill-domains
+  description: Hourly GitHub Action snapshot of the domain list Apple serves for Safari address-bar autofill, saved as a JSON file.
+  keywords: [safari, autocomplete, domain list, json, github actions]
+  archived: true
+
+- name: Apple CVE
+  url: https://apple-cve.com
+  description: Searchable index of every CVE in Apple's security release notes, filterable by component, severity and exploitation, with CSV/JSON feeds.
+  keywords: [cve, security advisories, vulnerabilities, cvss, patch tracking, atom feed]
+  platforms: [macOS, iOS, iPadOS, watchOS, tvOS, visionOS]
+  cost: free
+
+- name: CISA Known Exploited Vulnerabilities
+  url: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+  description: CISA's list of vulnerabilities confirmed as exploited in the wild, with remediation due dates, downloadable as CSV or JSON.
+  keywords: [kev, cve, zero-day, actively exploited, vulnerability management]
+
+- name: mSCP (macOS Security Compliance Project)
+  url: https://pages.nist.gov/macos_security/
+  description: Open-source project that generates security baselines, configuration profiles and compliance scripts for Apple platforms from NIST 800-53.
+  keywords: [nist, cis benchmark, 800-53, hardening, baseline, compliance scripts]
+  platforms: [macOS, iOS, iPadOS, visionOS]
+  cost: open-source
+
+- name: NIST SP 800-219 Rev. 1 (macOS Security Compliance Project)
+  url: https://csrc.nist.gov/pubs/sp/800/219/r1/final
+  description: NIST Special Publication 800-219 Rev. 1 describing the mSCP and how to use its automated macOS secure configuration baselines.
+  keywords: [sp 800-219, mscp, nist, hardening, baseline]
+  platforms: [macOS]
+
+- name: NVD Data Feeds and APIs
+  url: https://nvd.nist.gov/vuln/data-feeds
+  description: NIST National Vulnerability Database page on its CVE and CPE APIs and JSON data feeds, for keeping vulnerability data in sync.
+  keywords: [nvd, cve, rss, vulnerability feed, cvss]
+  tags: [rss]
+
+- name: Objective-See
+  url: https://objective-see.org/
+  description: Non-profit that makes free open-source macOS security tools, runs the OBTS conference and publishes The Art of Mac Malware.
+  keywords: [patrick wardle, malware, lulu, obts, endpoint security]
+  platforms: [macOS]
+
+- name: SOFA (Security RSS)
+  url: https://sofa.macadmins.io/v1/rss_feed.xml
+  description: SOFA's RSS feed of Apple OS, Safari, Xcode and XProtect releases, with counts of fixed and actively exploited vulnerabilities.
+  keywords: [sofa, software updates, cve, xprotect, patching, rss]
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
+  tags: [rss]

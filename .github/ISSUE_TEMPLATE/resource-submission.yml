@@ -1,0 +1,107 @@
+name: Submit a resource
+description: Suggest a tool, documentation page, blog, podcast or community for the directory.
+title: "[Resource]: "
+labels: ["resource-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. A maintainer reviews every submission. Once approved, it's added automatically.
+        Please check the site first to make sure it isn't already listed.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Installomator
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: A direct link to the project or page. No referral, affiliate or shortened links.
+      placeholder: https://github.com/Installomator/Installomator
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      # Keep in sync with the names in data/categories.yaml
+      options:
+        - Apple
+        - Tools & Scripts
+        - Blogs
+        - MDM & Vendors
+        - Community
+        - Podcasts & Video
+        - Security & Compliance
+        - Conferences
+        - Learning
+        - News & Feeds
+    validations:
+      required: true
+  - type: input
+    id: subcategory
+    attributes:
+      label: Subcategory
+      description: Optional. Use an existing one from the site where possible, for example "Packaging" or "Onboarding". A maintainer can adjust it.
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: One sentence, up to 140 characters. Say what it does, not why it's great.
+      placeholder: Installs and updates hundreds of Mac apps straight from the vendor.
+    validations:
+      required: true
+  - type: input
+    id: keywords
+    attributes:
+      label: Keywords
+      description: Optional. A few words people might search for, separated by commas. For example "filevault, escrow, recovery key".
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Platforms
+      options:
+        - label: macOS
+        - label: iOS
+        - label: iPadOS
+        - label: tvOS
+        - label: visionOS
+  - type: checkboxes
+    id: works_with
+    attributes:
+      label: Works with
+      description: Leave empty if it isn't tied to a management tool.
+      options:
+        - label: Any MDM
+        - label: Jamf
+        - label: Microsoft Intune
+        - label: Iru (formerly Kandji)
+        - label: Mosyle
+        - label: Addigy
+        - label: Munki
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Cost
+      options:
+        - free
+        - open-source
+        - freemium
+        - paid
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Optional context for the maintainers. This isn't published.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checklist
+      options:
+        - label: This is useful to people who manage Apple devices, and it isn't a sales page.
+          required: true
+        - label: The link is direct, without referral or tracking parameters.
+          required: true

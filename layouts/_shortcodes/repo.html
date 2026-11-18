@@ -1,0 +1,6 @@
+{{- /* Link into the repository: {{< repo "CONTRIBUTING.md" "contribution guide" >}} */ -}}
+{{- $path := .Get 0 -}}
+{{- $url := cond (eq $path "") site.Params.repo (printf "%s/blob/%s/%s" site.Params.repo site.Params.branch $path) -}}
+{{- if hasPrefix $path "issues" }}{{ $url = printf "%s/%s" site.Params.repo $path }}{{ end -}}
+<a href="{{ $url }}">{{ .Get 1 | default $path }}</a>
+{{- /* trim */ -}}

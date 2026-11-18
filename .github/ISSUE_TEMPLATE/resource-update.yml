@@ -1,0 +1,29 @@
+name: Fix or remove a resource
+description: Report a broken link, an outdated description, or a project that is no longer maintained.
+title: "[Update]: "
+labels: ["resource-update"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      description: As it appears on the site.
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      options:
+        - The link is broken or has moved
+        - The description is wrong or outdated
+        - It's in the wrong category
+        - It's no longer maintained
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: The new link or the correct information, if you know it.

@@ -1,0 +1,43 @@
+# Checks every link once a week and opens (or updates) one issue listing the broken ones.
+name: Link check
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"   # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Collect URLs
+        run: |
+          grep -h '^  url: ' data/resources/*.yaml | sed 's/^  url: //' > urls.txt
+          wc -l urls.txt
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Many vendor sites block bots (403) or rate-limit (429); those aren't reported as broken.
+          args: --no-progress --max-concurrency 8 --timeout 30 --max-retries 2 --accept 200..=299,403,429 urls.txt
+          output: lychee/out.md
+          fail: false
+
+      - name: Open or update the report issue
+        if: steps.lychee.outputs.exit_code != 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --label broken-links --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --repo "$GITHUB_REPOSITORY" --body-file lychee/out.md
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "Broken links report" --label broken-links --body-file lychee/out.md
+          fi

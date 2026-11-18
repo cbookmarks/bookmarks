@@ -1,0 +1,10 @@
+{{- $resources := slice -}}
+{{- range hugo.Data.categories -}}
+  {{- $cat := . -}}
+  {{- range index hugo.Data.resources .id -}}
+    {{- $resources = $resources | append (merge . (dict "category" $cat.id)) -}}
+  {{- end -}}
+{{- end -}}
+{{- $cats := slice -}}
+{{- range hugo.Data.categories }}{{ $cats = $cats | append (dict "id" .id "name" .name "description" .description "subcategories" .subcategories) }}{{ end -}}
+{{- dict "generated" (now.Format "2006-01-02") "source" site.Params.repo "categories" $cats "resources" $resources | jsonify (dict "indent" "  ") -}}

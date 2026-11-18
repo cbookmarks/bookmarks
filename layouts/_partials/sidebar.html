@@ -1,0 +1,46 @@
+{{- $home := site.Home.RelPermalink -}}
+{{- $total := 0 }}{{ range hugo.Data.categories }}{{ $total = add $total (len (index hugo.Data.resources .id)) }}{{ end -}}
+<aside class="sidebar">
+  <a class="brand" href="{{ $home }}">
+    <span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M9 8.5h14a1.5 1.5 0 0 1 1.5 1.5v14.5L16 20l-8.5 4.5V10A1.5 1.5 0 0 1 9 8.5z" fill="#fff"/></svg>
+    </span>
+    <span class="brand-text"><b>{{ site.Title }}</b><small>{{ site.Params.tagline }}</small></span>
+  </a>
+
+  {{ if .IsHome }}
+  <label class="search">
+    {{ partial "icon.html" "search" }}
+    <input id="q" type="search" placeholder="Search {{ $total }} resources" autocomplete="off" spellcheck="false" aria-label="Search resources">
+    <kbd aria-hidden="true">/</kbd>
+  </label>
+  {{ end }}
+
+  <nav class="cats" aria-label="Categories">
+    <a class="cat" href="{{ $home }}#all" data-cat="all">
+      <span class="tile c-graphite">{{ partial "icon.html" "grid" }}</span><span class="cat-name">All resources</span><span class="n">{{ $total }}</span>
+    </a>
+    {{ range hugo.Data.categories }}
+    {{- $cat := . }}{{ $items := index hugo.Data.resources .id }}
+    <a class="cat" href="{{ $home }}#{{ .id }}" data-cat="{{ .id }}">
+      <span class="tile c-{{ .color }}">{{ partial "icon.html" .icon }}</span><span class="cat-name">{{ .name }}</span><span class="n">{{ len $items }}</span>
+    </a>
+    {{- /* Subcategories that have resources, shown under the category while it's selected */}}
+    {{- $subs := slice }}{{ range .subcategories | default slice }}{{ if where $items "subcategory" . }}{{ $subs = $subs | append . }}{{ end }}{{ end }}
+    {{- if ge (len $subs) 2 }}
+    <div class="subs" data-for="{{ .id }}" hidden>
+      {{- range $subs }}{{ $slug := urlize . | replaceRE "-+" "-" }}
+      <a class="subcat" href="{{ $home }}#{{ $cat.id }}/{{ $slug }}" data-cat="{{ $cat.id }}" data-sub="{{ . }}" data-slug="{{ $slug }}"><span class="cat-name">{{ . }}</span><span class="n">{{ len (where $items "subcategory" .) }}</span></a>
+      {{- end }}
+    </div>
+    {{- end }}
+    {{ end }}
+  </nav>
+
+  <nav class="side-links" aria-label="Site">
+    <a href="{{ (site.GetPage "/submit").RelPermalink }}" {{ if eq .RelPermalink (site.GetPage "/submit").RelPermalink }}aria-current="page"{{ end }}>{{ partial "icon.html" "plus" }}Submit a resource</a>
+    <a href="{{ (site.GetPage "/about").RelPermalink }}" {{ if eq .RelPermalink (site.GetPage "/about").RelPermalink }}aria-current="page"{{ end }}>{{ partial "icon.html" "info" }}About</a>
+    <a href="{{ "bookmarks.html" | relURL }}" download>{{ partial "icon.html" "bookmark" }}Browser bookmarks</a>
+    <a href="{{ site.Params.repo }}" rel="noopener">{{ partial "icon.html" "github" }}GitHub</a>
+  </nav>
+</aside>

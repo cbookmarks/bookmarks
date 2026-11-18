@@ -1,0 +1,1 @@
+{{- $total := 0 }}{{ range hugo.Data.categories }}{{ $total = add $total (len (index hugo.Data.resources .id)) }}{{ end }}{{ $total -}}
