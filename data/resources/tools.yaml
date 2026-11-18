@@ -387,6 +387,17 @@
   platforms: [macOS]
   cost: open-source
 
+- name: Device Assist
+  url: https://jordythery.be/device-assist.html
+  subcategory: Jamf
+  description: iPhone and iPad app letting frontline staff restart, erase, return to service or clear the passcode of Jamf Pro devices, no console needed.
+  keywords: [frontline, return to service, clear passcode, shared devices, jamf marketplace]
+  platforms: [iOS, iPadOS]
+  works_with: [jamf]
+  cost: free
+  added: 2026-11-18
+  submitted_by: '@JordyThery'
+
 - name: DFUUtility
   url: https://github.com/thehallifax/DFUUtility
   subcategory: Utilities
