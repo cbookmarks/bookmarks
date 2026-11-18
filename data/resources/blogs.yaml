@@ -212,6 +212,15 @@
   description: Mosyle's blog with articles on managing and securing Apple devices at work, from SSO and app management to BYOD and stolen Macs.
   keywords: [mosyle business, byod, sso, google workspace, endpoint security]
 
+- name: Motionbug
+  url: https://motionbug.com
+  description: From DDM to VM; 🛌 Bedtime stories for MacAdmins 😴
+  keywords: [vm, macos, jamf, tart, virtualisation]
+  platforms: [macOS, iOS]
+  works_with: [any-mdm, jamf]
+  added: 2026-11-18
+  submitted_by: '@motionbug'
+
 - name: Mr. Macintosh
   url: https://mrmacintosh.com/
   subcategory: Personal
