@@ -1492,13 +1492,6 @@
   platforms: [macOS]
   cost: open-source
 
-- name: Save up to 25% PKG File Size
-  url: https://scriptingosx.com/2021/10/save-up-to-25-pkg-file-size-with-this-weird-monterey-trick/
-  subcategory: Packaging
-  description: Armin Briegel explains pkgbuild and productbuild compression options that shrink installer packages, and their trade-offs.
-  keywords: [pkgbuild, productbuild, compression, apple archive, scripting os x, packaging]
-  platforms: [macOS]
-
 - name: School Assembly - Jamf School Mac onboarding
   url: https://github.com/cantscript/SchoolAssembly
   subcategory: Onboarding
