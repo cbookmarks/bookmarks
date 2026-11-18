@@ -1,5 +1,7 @@
 # Community Bookmarks
 
+Visit our Github Pages : https://cbookmarks.github.io/bookmarks/
+
 A searchable, community-curated directory of tools, Apple documentation, blogs, podcasts, conferences and user groups for people who manage Apple devices.
 
 The original `Apple_Community_Bookmarks.html` stays in this repository so existing links keep working. The site's `/bookmarks.html` is the up-to-date version, rebuilt on every change.
