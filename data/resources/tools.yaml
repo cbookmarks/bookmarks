@@ -980,6 +980,15 @@
   platforms: [macOS]
   cost: open-source
 
+- name: Magic Toolbox
+  url: https://github.com/MDMMagic/Magic-Toolbox
+  description: An all-in-one Jamf Pro admin suite for macOS.
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: paid
+  added: 2026-11-18
+  submitted_by: '@MDMMagic'
+
 - name: MDM Migrator
   url: https://github.com/pathaksomesh06/MDM-Migrator
   subcategory: Intune
