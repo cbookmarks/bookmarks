@@ -896,6 +896,16 @@
   cost: open-source
   archived: true
 
+- name: Kilobat
+  url: https://kilobat.app/
+  subcategory: Inspection
+  description: Menu bar network monitor showing live traffic per app, with Wi-Fi and speed health, data budgets and app blocking on metered hotspots.
+  keywords: [bandwidth, network monitor, hotspot, wi-fi, data usage]
+  platforms: [macOS]
+  cost: freemium
+  added: 2026-11-18
+  submitted_by: '@JordyThery'
+
 - name: Latest
   url: https://github.com/mangerlahn/Latest
   subcategory: App management
