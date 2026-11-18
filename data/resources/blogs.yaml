@@ -145,12 +145,6 @@
   keywords: [dan snelson, mac health check, ddm os reminder, jamf pro, scripts]
   platforms: [macOS]
 
-- name: MacAdmin Blogs via Feedspot
-  url: https://bloggers.feedspot.com/mac_blogs/
-  subcategory: Aggregators
-  description: FeedSpot's ranked list of Mac blogs such as MacRumors, 9to5Mac and MacStories, with follower counts and links to follow each one.
-  keywords: [feedspot, blog list, rss, mac news]
-
 - name: MacAdmin Musings - Scott Blake
   url: https://macadminmusings.com/
   subcategory: Personal

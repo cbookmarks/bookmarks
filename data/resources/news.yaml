@@ -18,12 +18,6 @@
   platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
   tags: [apple, rss]
 
-- name: AWS Health - Service health
-  url: https://health.aws.amazon.com/health/status
-  subcategory: Feeds
-  description: AWS Health Dashboard showing the current status and incident history of AWS services by region, with per-service RSS feeds.
-  keywords: [aws, status page, outage, service health, rss]
-
 - name: HCS White Papers
   url: https://hcsonline.com/support/resources/white-papers?format=feed&catid=43
   subcategory: Feeds
