@@ -79,14 +79,6 @@
   keywords: [codesign, notarization, entitlements, gatekeeper, bundle id, pppc]
   platforms: [macOS]
 
-- name: AppCleaner
-  url: https://freemacsoft.net/appcleaner/
-  subcategory: Utilities
-  description: Drag-and-drop app uninstaller that finds an application's related support files and deletes them along with it.
-  keywords: [uninstall, uninstaller, leftover files, cleanup, freemacsoft]
-  platforms: [macOS]
-  cost: free
-
 - name: Apple Policy Explorer
   url: https://appledevicepolicy.tools/policy-explorer
   subcategory: Profiles & compliance
@@ -114,13 +106,6 @@
   cost: open-source
   added: 2026-10-24
   submitted_by: '@JordyThery'
-
-- name: Aurora Screen Shot
-  url: https://leo2008k.github.io/AuroraScreenShot
-  subcategory: Utilities
-  description: Screenshot app with annotation, blur and redaction, OCR text extraction and optional local AI analysis through Ollama.
-  keywords: [screenshot, annotation, redaction, ocr, ollama]
-  platforms: [macOS]
 
 - name: AutoPKG
   url: https://github.com/autopkg/autopkg
@@ -283,13 +268,6 @@
   description: Hub for Cody Keats' open-source Mac admin projects, including the MOFA and BOFA feeds, M.A.C.E. and CaC for Mac.
   keywords: [mofa, bofa, mace, mscp, smart card]
 
-- name: CodeLobster
-  url: https://codelobster.com/
-  subcategory: Editors
-  description: Cross-platform IDE for PHP, HTML, CSS, JavaScript, TypeScript, Python and Node.js, with a free core and a paid Professional tier.
-  keywords: [ide, php, javascript, code editor]
-  cost: freemium
-
 - name: Coderunner 4
   url: https://coderunnerapp.com/download
   subcategory: Editors
@@ -415,13 +393,6 @@
   platforms: [macOS]
   cost: open-source
 
-- name: The Eclectic Light Company - Freeware Menu
-  url: https://eclecticlight.co/wp-content/uploads/2021/06/appselectionchart0621.pdf
-  subcategory: Utilities
-  description: PDF chart of Howard Oakley's free macOS utilities by task, from security and logs to keychains and command tools.
-  keywords: [howard oakley, silentknight, ulbow, freeware, logs]
-  platforms: [macOS]
-
 - name: ELEVATE24
   url: https://www.jigsaw24.com/solutions/automation-and-tooling/elevate24
   subcategory: Security & identity
@@ -496,26 +467,12 @@
   platforms: [macOS]
   cost: free
 
-- name: Google Keep
-  url: https://workspace.google.com/products/keep/
-  subcategory: Productivity
-  description: Google's note-taking app for notes, checklists, photos, drawings and audio, with reminders, labels and sync across devices.
-  keywords: [notes, checklists, reminders, google workspace, note taking]
-
 - name: Graham Pugh multitenant Jamf Pro tools
   url: https://github.com/grahampugh/multitenant-jamf-tools
   subcategory: Jamf
   description: Bash scripts that run Jamf Pro API actions on one, several or all servers in a list, copy items between them and seed new instances.
   keywords: [mjt, jamf pro api, multi-tenant, msp, migration, jocads]
   works_with: [jamf]
-  cost: open-source
-
-- name: Hazmat
-  url: https://github.com/dredozubov/hazmat
-  subcategory: Security & identity
-  description: CLI that runs AI coding agents as a separate user inside a seatbelt sandbox with pf firewall rules and pre-session snapshots for rollback.
-  keywords: [claude code, codex, sandbox, ai agents, pf firewall, seatbelt]
-  platforms: [macOS]
   cost: open-source
 
 - name: Hello-IT
@@ -802,13 +759,6 @@
   works_with: [jamf]
   cost: open-source
 
-- name: Jamf Recipe Maker
-  url: https://grahamrpugh.com/2022/05/03/jamf-recipe-maker.html
-  subcategory: Packaging
-  description: AutoPkg processor that reads a .jss recipe and writes an equivalent .jamf recipe, easing the move from JSSImporter to JamfUploader.
-  keywords: [autopkg, jamfuploader, jssimporter, recipes, patching]
-  works_with: [jamf]
-
 - name: Jamf Replicator
   url: https://github.com/jamf/Replicator
   subcategory: Jamf
@@ -889,13 +839,6 @@
   works_with: [jamf]
   cost: open-source
   added: 2026-11-18
-
-- name: Jordy Thery's Mac admin apps
-  url: https://jordythery.be/apps.html
-  subcategory: Scripts & references
-  description: Jordy Thery's collection of Mac admin apps for Jamf Pro, Intune and Apple Business, with a page for each app.
-  keywords: [jamf, intune, blueprints, apple business, swift apps]
-  added: 2026-10-24
 
 - name: Just Upgrade and Migrate to Intune
   url: https://github.com/pathaksomesh06/JUMP-IN
@@ -992,20 +935,6 @@
   subcategory: Utilities
   description: Mac Admins Open Source GitHub organisation hosting community tools such as Nudge, SOFA, Escrow Buddy, UMAD and InstallApplications.
   keywords: [nudge, sofa, escrow buddy, umad, installapplications, code signing]
-
-- name: MacDNA
-  url: https://github.com/jhbush/Arek/tree/master/Development/MacDNA%20Menulet
-  subcategory: User environment
-  description: 'Older menu bar app showing Mac health: disk and battery status, CrashPlan backups, Jamf (Casper) check-ins, updates and AD binding.'
-  keywords: [menu bar, menulet, system info, arek]
-
-- name: macOS Icons
-  url: https://macosicons.com
-  subcategory: Utilities
-  description: Searchable library of user-submitted macOS app icons in .icns and PNG, with an icon editor, templates and an API.
-  keywords: [icns, app icons, self service icons, branding, png]
-  platforms: [macOS]
-  cost: free
 
 - name: macOS Installer Archive
   url: https://osinstallerarchive.com/
@@ -1188,14 +1117,6 @@
   works_with: [jamf]
   cost: open-source
   archived: true
-
-- name: Nexus Shell
-  url: https://nexusshell.app/
-  subcategory: Utilities
-  description: Native SSH client combining multi-tab terminal, SFTP, SSH key management, Docker management and live server monitoring.
-  keywords: [ssh, sftp, terminal, docker, server monitoring, mcp]
-  platforms: [macOS]
-  cost: freemium
 
 - name: NoMAD
   url: https://nomad.menu/products/#nomad
@@ -1598,14 +1519,6 @@
   platforms: [macOS]
   cost: open-source
 
-- name: Slack
-  url: https://slack.com/downloads/osx
-  subcategory: Productivity
-  description: Download page for Slack's Mac desktop app, with a Mac App Store option, release notes and enterprise deployment guides.
-  keywords: [chat, messaging, mac admins slack, deployment, dmg]
-  platforms: [macOS]
-  cost: freemium
-
 - name: SOFA
   url: https://sofa.macadmins.io/
   subcategory: Software updates
@@ -1702,13 +1615,6 @@
   platforms: [macOS]
   cost: freemium
 
-- name: Taskade
-  url: https://taskade.com/
-  subcategory: Productivity
-  description: AI workspace for tasks, projects and no-code apps, with agents, automations and integrations on web, desktop and mobile.
-  keywords: [task management, project management, to-do, ai agents, automation]
-  cost: freemium
-
 - name: Telepod, MacOnboardingMate
   url: https://www.agnosys.com/logiciels/
   subcategory: Onboarding
@@ -1743,13 +1649,6 @@
   keywords: [extension attributes, json schema, mscp, jamf pro, scripts]
   platforms: [macOS]
   added: 2026-11-18
-
-- name: Trello
-  url: https://trello.com/
-  subcategory: Productivity
-  description: Board-and-list task and project management with inbox capture, a calendar planner, automation and integrations.
-  keywords: [kanban, task management, project management, to-do, atlassian]
-  cost: freemium
 
 - name: tseec
   url: https://github.com/txhaflaire/tseec
