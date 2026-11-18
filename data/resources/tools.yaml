@@ -1340,6 +1340,7 @@
   platforms: [macOS]
   works_with: [jamf]
   cost: open-source
+  archived: true
 
 - name: ProfileCreator
   url: https://github.com/ProfileCreator/ProfileCreator
