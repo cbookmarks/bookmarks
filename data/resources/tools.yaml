@@ -917,6 +917,15 @@
   added: 2026-11-18
   submitted_by: '@JordyThery'
 
+- name: LAI FVR Extractor
+  url: https://apps.apple.com/nl/app/lai-fvr-extractor/id6771800413
+  subcategory: Security & identity
+  description: Decrypts the FileVault recovery keys that Apple Business escrows from its CSV export, and creates the certificate and key pair escrow needs.
+  keywords: [filevault, recovery key, escrow, apple business, decrypt]
+  platforms: [iOS, iPadOS, macOS]
+  cost: free
+  added: 2026-11-18
+
 - name: Latest
   url: https://github.com/mangerlahn/Latest
   subcategory: App management
@@ -1245,6 +1254,42 @@
   keywords: [login script, boot script, login-once, launchd, automation]
   platforms: [macOS]
   cost: open-source
+
+- name: OwDFU
+  url: https://www.ideowen.nl/apps/owdfu/
+  subcategory: Utilities
+  description: Puts a connected Apple silicon Mac into DFU mode with one click, then revives or restores it, several at once, from a local IPSW library.
+  keywords: [dfu, revive, restore, ipsw, apple silicon]
+  platforms: [macOS]
+  cost: free
+  added: 2026-11-18
+
+- name: OwHello
+  url: https://www.ideowen.nl/apps/owhello/
+  subcategory: Inspection
+  description: Bonjour browser that lists and explains every device and service announcing itself, with ping, port checks, Thread and UPnP discovery.
+  keywords: [bonjour, mdns, airplay, network discovery, thread]
+  platforms: [macOS, iOS, iPadOS]
+  cost: free
+  added: 2026-11-18
+
+- name: OwPackager
+  url: https://www.ideowen.nl/apps/owpackager/
+  subcategory: Packaging
+  description: Mac app around pkgbuild, productbuild and notarytool that builds signed, notarized pkgs and dmgs, script-only pkgs and uninstallers.
+  keywords: [pkgbuild, notarization, codesign, dmg, payload-free]
+  platforms: [macOS]
+  cost: free
+  added: 2026-11-18
+
+- name: OwSpectrum
+  url: https://www.ideowen.nl/apps/owspectrum/
+  subcategory: Inspection
+  description: Spectrum analyzer for a Wi-Spy 2.4i or RTL-SDR dongle, with waterfall view, nearby Wi-Fi networks and a quietest-channel suggestion.
+  keywords: [wi-fi, spectrum analyzer, wi-spy, rtl-sdr, interference]
+  platforms: [macOS]
+  cost: free
+  added: 2026-11-18
 
 - name: Packages - WhiteBox
   url: http://s.sudre.free.fr/Software/Packages/about.html

@@ -45,6 +45,13 @@
   works_with: [jamf]
   cost: paid
 
+- name: LAI Prep App
+  url: https://apps.apple.com/nl/app/lai-prep-app/id6759753923
+  description: iPhone, iPad and Mac app with practice and timed exam modes and a question bank for Apple certification exams, synced via iCloud.
+  keywords: [apple certification, exam prep, device support, deployment and management, practice exams]
+  platforms: [iOS, iPadOS, macOS]
+  added: 2026-11-18
+
 - name: Scripting JAMF Best Practices
   url: https://scriptingosx.com/jnuc2020/
   description: 'Armin Briegel''s JNUC 2020 talk on Jamf scripting: shell setup, current-user detection, running as root and avoiding PPPC prompts.'
