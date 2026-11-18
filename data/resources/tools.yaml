@@ -235,6 +235,16 @@
   platforms: [macOS]
   added: 2026-10-24
 
+- name: Boxing Day
+  url: https://github.com/sherrodsoftware/BoxingDay
+  subcategory: Packaging
+  description: Mac utility that turns a dropped .app, .dmg or .zip into an installer package with correct permissions and uploads it to Jamf Pro.
+  keywords: [pkg, upload, jamf pro packages, dmg, app to pkg]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-11-18
+
 - name: Browser Overview Feed for Apple
   url: https://github.com/cocopuff2u/bofa
   subcategory: App management
@@ -525,6 +535,15 @@
   platforms: [macOS]
   cost: free
   added: 2026-10-24
+
+- name: Installomator Mate
+  url: https://hennig.nu/appar/installomatormate
+  subcategory: App management
+  description: Mac app for searching Installomator labels, setting options and presets, and exporting ready-to-use Installomator scripts.
+  keywords: [installomator, labels, script builder, swiftdialog, presets]
+  platforms: [macOS]
+  cost: free
+  added: 2026-11-18
 
 - name: Intune Deployer
   url: https://github.com/JordyThery/intune-deployer
@@ -840,6 +859,15 @@
   cost: open-source
   added: 2026-11-18
 
+- name: JSMmaker2
+  url: https://github.com/YannMarchesseau/JSMmaker2
+  subcategory: Onboarding
+  description: Visual builder for Jamf Setup Manager configurations that pulls policies and buildings from Jamf Pro and previews the result.
+  keywords: [setup manager, configuration builder, plist, jamf school, mobileconfig]
+  platforms: [macOS]
+  works_with: [jamf]
+  added: 2026-11-18
+
 - name: Just Upgrade and Migrate to Intune
   url: https://github.com/pathaksomesh06/JUMP-IN
   subcategory: Intune
@@ -915,6 +943,15 @@
   cost: open-source
   added: 2026-10-24
 
+- name: Mac Monitor
+  url: https://github.com/Brandon7CC/mac-monitor
+  subcategory: Security & identity
+  description: Endpoint Security based process monitor, like ProcMon for macOS, collecting process, file, XPC and memory events for malware triage.
+  keywords: [endpoint security, procmon, malware triage, system extension, forensics]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-11-18
+
 - name: Mac Performance Monitor
   url: https://github.com/Zesty0wl/mac-performance-monitor
   subcategory: Inspection
@@ -929,6 +966,15 @@
   subcategory: Utilities
   description: Source of the macadmins.io site for Mac Admins Open Source, which provides code signing certificates to community projects.
   keywords: [code signing, open source, nudge, sofa, community]
+
+- name: MacAdmins Python
+  url: https://github.com/macadmins/python
+  subcategory: Utilities
+  description: Python 3 framework installed to /Library/ManagedFrameworks for Mac admin tools that relied on the system Python Apple removed.
+  keywords: [python 3, managed python, framework, pkg, munki]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-11-18
 
 - name: MacAdmins Tools
   url: https://github.com/macadmins
@@ -979,6 +1025,15 @@
   keywords: [screensaver, saver, branding, lock screen, jamf]
   platforms: [macOS]
   cost: open-source
+
+- name: Mactracker
+  url: https://mactracker.ca/
+  subcategory: Utilities
+  description: Database app with specifications of every Apple Mac, iPhone, iPad, Watch and accessory, including supported OS versions.
+  keywords: [specifications, hardware, model identifier, supported os, apple products]
+  platforms: [macOS, iOS, iPadOS]
+  cost: free
+  added: 2026-11-18
 
 - name: Magic Toolbox
   url: https://github.com/MDMMagic/Magic-Toolbox
@@ -1118,6 +1173,14 @@
   cost: open-source
   added: 2026-11-18
 
+- name: NanoCMD
+  url: https://github.com/micromdm/nanocmd
+  subcategory: Automation
+  description: Go library and reference server that turns Apple MDM commands and responses into workflows, from the MicroMDM project.
+  keywords: [mdm commands, micromdm, nanomdm, workflows, go]
+  cost: open-source
+  added: 2026-11-18
+
 - name: Neil Martin Terraform Starter
   url: https://github.com/neilmartin83/terraform-jamfpro-starter
   subcategory: Jamf
@@ -1135,6 +1198,15 @@
   keywords: [active directory, kerberos, unbind, password sync, nomad login, jamf connect]
   platforms: [macOS]
   cost: open-source
+
+- name: Notifier
+  url: https://github.com/Jamf-Concepts/Notifier
+  subcategory: User environment
+  description: Swift app that posts alert or banner notifications on managed Macs, run from scripts or MDM.
+  keywords: [notifications, alerts, banners, notification center, jamf concepts]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-11-18
 
 - name: Nova
   url: https://nova.app/
@@ -1292,6 +1364,15 @@
   platforms: [macOS]
   cost: freemium
 
+- name: Power Monitor
+  url: https://github.com/SAP/power-monitoring-tool-for-macos
+  subcategory: Inspection
+  description: SAP's open-source app that measures a Mac's power consumption and estimates its carbon footprint based on location.
+  keywords: [energy, power consumption, sustainability, carbon footprint, sap]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-11-18
+
 - name: PrefWatch
   url: https://github.com/Gill0o/PrefWatch
   subcategory: Inspection
@@ -1343,6 +1424,16 @@
   platforms: [macOS]
   cost: open-source
 
+- name: PSSO Forge
+  url: https://apps.apple.com/app/psso-forge/id6774732266
+  subcategory: Intune
+  description: Mac app that creates, checks and corrects Platform SSO profiles for Microsoft Intune as Settings Catalog JSON, with macOS requirements.
+  keywords: [platform sso, psso, settings catalog, entra id, graph]
+  platforms: [macOS]
+  works_with: [intune]
+  cost: freemium
+  added: 2026-11-18
+
 - name: PSSO Utility
   url: https://concepts.jamf.com/en/concepts/psso-utility/
   subcategory: Security & identity
@@ -1358,6 +1449,15 @@
   description: Reference of pure bash techniques for common tasks, replacing external tools like sed, awk, head and tail in scripts.
   keywords: [shell scripting, string manipulation, reference, snippets]
   archived: true
+
+- name: quickpkg
+  url: https://github.com/scriptingosx/quickpkg
+  subcategory: Packaging
+  description: pkgbuild wrapper by Armin Briegel that builds a package from an installed app, a disk image or a zip, using the app's name and version.
+  keywords: [pkgbuild, dmg, zip, package, scripting os x]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-11-18
 
 - name: Rectangle
   url: https://rectangleapp.com/
@@ -1529,6 +1629,15 @@
   platforms: [macOS]
   cost: open-source
 
+- name: Smartcard Menu
+  url: https://github.com/boberito/sc_menu
+  subcategory: Security & identity
+  description: Menu bar app that shows whether a PIV smart card is inserted and lets users view the certificates on it.
+  keywords: [smart card, piv, cac, certificates, menu bar]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-11-18
+
 - name: SOFA
   url: https://sofa.macadmins.io/
   subcategory: Software updates
@@ -1641,6 +1750,16 @@
   works_with: [jamf]
   cost: open-source
   added: 2026-10-24
+
+- name: Terraform Provider for Jamf Pro
+  url: https://github.com/deploymenttheory/terraform-provider-jamfpro
+  subcategory: Automation
+  description: Community Terraform provider from Deployment Theory that manages Jamf Pro as code through both the Classic and Jamf Pro APIs.
+  keywords: [terraform, opentofu, infrastructure as code, deployment theory, jamf pro api]
+  platforms: [macOS]
+  works_with: [jamf]
+  cost: open-source
+  added: 2026-11-18
 
 - name: Third Party Patcher
   url: https://github.com/gilburns/Third-Party-Patcher
