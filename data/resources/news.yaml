@@ -18,6 +18,13 @@
   platforms: [macOS, iOS, iPadOS, tvOS, visionOS, watchOS]
   tags: [apple, rss]
 
+- name: Full Metal Mac
+  url: https://fullmetalmac.com/#gsc.tab=0
+  platforms: [macOS, iOS, iPadOS, tvOS, visionOS]
+  cost: free
+  added: 2026-11-20
+  submitted_by: '@maccy10'
+
 - name: HCS White Papers
   url: https://hcsonline.com/support/resources/white-papers?format=feed&catid=43
   subcategory: Feeds
