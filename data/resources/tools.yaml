@@ -763,7 +763,7 @@
   added: 2026-11-18
 
 - name: Jamf Pro Policy Cheat Sheet
-  url: https://oit.ncsu.edu/help-support/apple/jamf-pro/jamf-pro-policy-cheat-sheet/#time
+  url: https://go.ncsu.edu/jamfcheat
   subcategory: Jamf
   description: NC State's outlines for setting up Jamf Pro policies and profiles for tasks like encryption, firewall, patching, printers and login items.
   keywords: [policies, configuration profiles, filevault, rosetta, xcreds, nc state]
