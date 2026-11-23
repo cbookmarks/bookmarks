@@ -313,6 +313,15 @@
   cost: open-source
   added: 2026-10-24
 
+- name: Culprit
+  url: https://github.com/Gill0o/culprit
+  subcategory: Inspection
+  description: Script built on eslogger that records the commands, deletions and file reads an app or tool performs, as replayable command lines.
+  keywords: [eslogger, endpoint security, app vetting, audit, file deletion]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-11-23
+
 - name: Dan K. Snelson (GitHub)
   url: https://github.com/dan-snelson
   subcategory: Scripts & references
@@ -858,6 +867,16 @@
   works_with: [jamf]
   cost: open-source
   added: 2026-11-18
+
+- name: jamJAR
+  url: https://github.com/Jamf-Concepts/jamJAR
+  subcategory: App management
+  description: Combines Jamf Pro and Munki, with Jamf policies adding items to Munki's local manifest so Munki installs and patches them.
+  keywords: [munki, autopkg, patch management, localonlymanifest, app deployment]
+  platforms: [macOS]
+  works_with: [jamf, munki]
+  cost: open-source
+  added: 2026-11-23
 
 - name: JSMmaker2
   url: https://github.com/YannMarchesseau/JSMmaker2
@@ -1603,6 +1622,15 @@
   works_with: [jamf]
   cost: open-source
 
+- name: SetShot
+  url: https://github.com/adamengst/setshot-app
+  subcategory: Inspection
+  description: Takes snapshots of a Mac's macOS settings and compares two to show which settings changed, for example after a macOS update.
+  keywords: [system settings, preferences, snapshot, diff, macos updates, tidbits]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-11-23
+
 - name: Setup Manager HUD
   url: https://github.com/motionbug/setupmanagerhud
   subcategory: Onboarding
@@ -1840,6 +1868,15 @@
   platforms: [macOS]
   cost: open-source
   archived: true
+
+- name: VirtualBuddy
+  url: https://github.com/insidegui/VirtualBuddy
+  subcategory: Virtualization
+  description: Mac app that runs macOS virtual machines on Apple silicon and downloads and installs any macOS version, including betas.
+  keywords: [vm, ipsw, macos betas, virtualization framework, testing]
+  platforms: [macOS]
+  cost: open-source
+  added: 2026-11-23
 
 - name: Visual Studio Code
   url: https://code.visualstudio.com/
