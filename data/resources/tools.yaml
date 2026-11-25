@@ -1174,6 +1174,17 @@
   platforms: [macOS]
   cost: open-source
 
+- name: 'Muster: MDM Console'
+  url: https://apps.apple.com/app/id6834886521
+  subcategory: Jamf
+  description: 'Jamf Pro on your iPhone and iPad: find a device, see everything about it, act on it.'
+  keywords: [jamf, jamf pro, mobile, ios, ipados, portable, mobile friendly]
+  platforms: [iOS, iPadOS]
+  works_with: [jamf]
+  cost: free
+  added: 2026-11-25
+  submitted_by: '@JordyThery'
+
 - name: MUT
   url: https://apps.apple.com/us/app/the-mut/id1133234759
   subcategory: Jamf
