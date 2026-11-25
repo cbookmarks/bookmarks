@@ -28,12 +28,6 @@
   description: YouTube channel of Greater Philadelphia Mac Admins, a regional Mac admin user group.
   keywords: [philadelphia, philly, user group, meetup, recordings]
 
-- name: The History of Computing
-  url: https://podcasts.apple.com/us/podcast/the-history-of-computing/id1472463802
-  subcategory: Podcasts
-  description: Charles Edge's podcast on the people, companies and ideas behind computing, from early machines to the internet and Apple.
-  keywords: [computer history, charles edge, krypted, tech history]
-
 - name: India Apple Admins
   url: https://www.youtube.com/@indiamacadmins
   subcategory: Video
@@ -49,7 +43,7 @@
   works_with: [intune]
 
 - name: Iru on YouTube
-  url: https://www.youtube.com/@KandjiOfficial
+  url: https://www.youtube.com/@officiallyiru
   subcategory: Video
   description: YouTube channel of Iru, formerly Kandji, the Apple device management and endpoint security platform.
   keywords: [kandji, mdm, endpoint security, webinars, demos]

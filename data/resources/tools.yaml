@@ -1222,12 +1222,13 @@
   archived: true
 
 - name: NoMAD
-  url: https://nomad.menu/products/#nomad
+  url: https://github.com/jamf/NoMAD
   subcategory: Security & identity
   description: Menu bar app that gives local-account Macs Active Directory Kerberos tickets, password sync and SSO without binding.
   keywords: [active directory, kerberos, unbind, password sync, nomad login, jamf connect]
   platforms: [macOS]
   cost: open-source
+  archived: true
 
 - name: Notifier
   url: https://github.com/Jamf-Concepts/Notifier
