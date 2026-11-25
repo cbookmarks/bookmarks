@@ -135,7 +135,7 @@
 
 - name: Awesome Mac tools
   url: https://github.com/jaywcjlove/awesome-mac
-  subcategory: Scrips & references
+  subcategory: Scripts & references
   description: Curated list of macOS apps by category, from developer tools to utilities, with separate lists of command-line apps and editor plugins.
   keywords: [awesome list, app catalog, mac apps, command line apps, software directory]
   platforms: [macOS]
