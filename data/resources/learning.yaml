@@ -52,6 +52,14 @@
   platforms: [iOS, iPadOS, macOS]
   added: 2026-11-18
 
+- name: macOS RMM pilot evaluation matrix
+  url: https://izikipizi.github.io/nizlo-msp-operations-resources/macos-rmm-pilot-evaluation-matrix.html
+  keywords: [macos, rmm, mdm, pilot, enrollment]
+  platforms: [macOS]
+  cost: free
+  added: 2026-11-27
+  submitted_by: '@izikipizi'
+
 - name: Scripting JAMF Best Practices
   url: https://scriptingosx.com/jnuc2020/
   description: 'Armin Briegel''s JNUC 2020 talk on Jamf scripting: shell setup, current-user detection, running as root and avoiding PPPC prompts.'
